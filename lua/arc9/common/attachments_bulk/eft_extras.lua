@@ -103,6 +103,7 @@ ATT.Description = [[tactical
 eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 69
 ATT.ActivePos = Vector(-1.8, -3.5, 0.2)
@@ -137,6 +138,7 @@ ATT.Description = [[tactical
 eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 65
 ATT.ActivePos = Vector(-1.8, -2, -0.5)
@@ -171,6 +173,7 @@ ATT.Description = [[tactical
 eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 70
 ATT.ActivePos = Vector(-2.6, -5, 0.9)
@@ -205,6 +208,7 @@ ATT.Description = [[tactical 2
 eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 70
 ATT.ActivePos = Vector(-2.6, -5, -0.3)
@@ -281,6 +285,7 @@ please do not stack those
 eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.EFTErgoAdd = 35
 ATT.CustomPros = { Ergonomics = "+35" }
@@ -319,6 +324,7 @@ ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
 ATT.Description = [[Disables jams and overheating]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.Malfunction = false
 ATT.Overheat = false
@@ -391,6 +397,7 @@ you are crazy fuck
 eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.HasBolt = true
 ATT.HasBarrel = true
@@ -434,6 +441,7 @@ ATT.Description = [[:)
 eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.ShellSounds = { "weapons/darsu_eft/shells/metal_pole_particle_tail_l_wave1.wav", "weapons/darsu_eft/shells/metal_pole_particle_tail_l_wave2.wav", "weapons/darsu_eft/shells/metal_pole_particle_tail_l_wave3.wav", 
 "weapons/darsu_eft/shells/metal_pole_particle_tail_l_wave1.wav", "weapons/darsu_eft/shells/metal_pole_particle_tail_l_wave2.wav", "weapons/darsu_eft/shells/metal_pole_particle_tail_l_wave3.wav",
