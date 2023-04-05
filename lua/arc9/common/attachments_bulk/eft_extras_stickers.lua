@@ -399,3 +399,296 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_axmc_upper_stickers")
+
+local ATT = {}
+
+///////////////////////////////////////      eft_rsh12_sticker_frame
+
+ATT = {}
+
+ATT.PrintName = "RSh-12 sticker slots on frame"
+ATT.CompactName = "Sticker Frame"
+ATT.Icon = Material("entities/eft_extras_attachments/rsh12framesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+ATT.Free = true
+
+ATT.Category = {"eft_custom_slot_rsh12"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_frame1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.7, 0.6, -0.9),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_frame2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1, 0.6, -0.9),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_rsh12_sticker_frame")
+
+
+///////////////////////////////////////      eft_rsh12_drum_sticker
+
+
+ATT = {}
+
+ATT.PrintName = "RSh-12 12.7x55 5-round cylinder W/ STICKERS"
+ATT.CompactName = "STICKER CYLINDER"
+ATT.Icon = Material("entities/eft_extras_attachments/rsh12drumsticker.png", "mips smooth")
+ATT.Description = [[A 5-round 12.7x55 cylinder for the RSh-12 revolver.]]
+ATT.ActivateElements = {"eft_rsh12_mag_std"}
+
+ATT.EFTErgoAdd = -5
+ATT.CustomCons = { Ergonomics = "-5" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+
+
+ATT.ClipSize = 5
+
+ATT.HasMag = true 
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_rsh12_mag"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_baraban1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 0.7, 0.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_baraban2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, -1, -0.2),
+        Ang = Angle(0, 0, 0),
+    },
+
+}
+
+ARC9.LoadAttachment(ATT, "eft_rsh12_drum_sticker")
+
+
+///////////////////////////////////////      eft_rsh12_pgrip_sticker
+
+ATT = {}
+
+ATT.PrintName = "RSh-12 pistol grip W/ STICKERS"
+ATT.CompactName = "STICKER GRIP"
+ATT.Icon = Material("entities/eft_extras_attachments/rsh12gripsticker.png", "mips smooth")
+ATT.Description = [[A standard-issue plastic pistol grip for the RSh-12 revolver, manufactured by the KBP Instrument Design Bureau.]]
+ATT.ActivateElements = {"eft_rsh12_pgrip_std"}
+
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_grip1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, -0.8, 0.2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_grip2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.7, -0.8, -1.8),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.HasGrip = true 
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_rsh12_pgrip"}
+
+
+
+ARC9.LoadAttachment(ATT, "eft_rsh12_pgrip_sticker")
+
+
+///////////////////////////////////////      eft_ash12_sticker_frame
+
+ATT = {}
+
+ATT.PrintName = "ASh-12 sticker slots on frame"
+ATT.CompactName = "Sticker Frame"
+ATT.Icon = Material("entities/eft_extras_attachments/ash12framesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+ATT.Free = true
+
+ATT.Category = {"eft_custom_slot_ash12"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-8.9, -0.6, 1.6),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-5.4, -0.6, 1.6),
+        Ang = Angle(0, 0, 0),
+    },
+        {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-2, -0.6, 1.6),
+        Ang = Angle(0, 0, 0),
+    },
+        {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame4.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.9, -0.6, 1.6),
+        Ang = Angle(0, 0, 0),
+    },
+        {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame5.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(3.5, -0.6, 4.3),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_ash12_sticker_frame")
+
+
+
+///////////////////////////////////////      eft_ash12_mag_10_stick
+
+
+ATT = {}
+
+ATT.PrintName = "ASh-12 12.7x55 10-round magazine W/ STICKERS"
+ATT.CompactName = "ASh-12 10 STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/ash12mag10sticker.png", "mips smooth")
+ATT.Description = [[10-round magazine for 12.7x55 ASh-12.]]
+ATT.ActivateElements = {"eft_ash12_mag_10"}
+
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_ash12_mag"}
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.1, -0.5, 2.5),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+
+ATT.HasMag = true 
+
+ATT.ClipSize = 10
+ATT.ChamberSize = 1
+ATT.DropMagazineAmount = 1
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/ash12mag10.mdl"
+
+
+ARC9.LoadAttachment(ATT, "eft_ash12_mag_10_stick")
+
+
+///////////////////////////////////////      eft_ash12_mag_20_stick
+
+
+ATT = {}
+
+ATT.PrintName = "ASh-12 12.7x55 20-round magazine W/ STICKERS"
+ATT.CompactName = "ASh-12 20 STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/ash12mag20sticker.png", "mips smooth")
+ATT.Description = [[20-round magazine for 12.7x55 ASh-12.]]
+ATT.ActivateElements = {"eft_ash12_mag_20"}
+
+ATT.EFTErgoAdd = -7
+ATT.CustomCons = { Ergonomics = "-7" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.75
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_ash12_mag"}
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.1, -0.5, 2.5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0.4, -0.5, 6.3),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+
+ATT.HasMag = true 
+
+ATT.ClipSize = 20
+ATT.ChamberSize = 1
+ATT.DropMagazineAmount = 1
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/ash12mag20.mdl"
+
+
+ARC9.LoadAttachment(ATT, "eft_ash12_mag_20_stick")
