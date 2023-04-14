@@ -407,6 +407,7 @@ ATT.HasGas = true
 ATT.HasGrip = true
 ATT.HasHG = true
 ATT.HasMag = true
+ATT.HasBufferTube = true
 ATT.HasStock = true
 ATT.HasHandguard = true
 ATT.HasReceiver = true
