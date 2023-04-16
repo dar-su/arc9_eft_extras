@@ -97,7 +97,7 @@ ATT = {}
 
 ATT.PrintName = "Alternative viewmodel position (For rifles)"
 ATT.CompactName = "Rifle hold"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/rifpose.png", "mips smooth")
 ATT.Description = [[tactical 
 
 eft extras attachment]]
@@ -132,7 +132,7 @@ ATT = {}
 
 ATT.PrintName = "Alternative viewmodel position (For rifles 2)"
 ATT.CompactName = "Rifle hold 2"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/rif2pose.png", "mips smooth")
 ATT.Description = [[tactical 
 
 eft extras attachment]]
@@ -167,7 +167,7 @@ ATT = {}
 
 ATT.PrintName = "Alternative viewmodel position (For pistols)"
 ATT.CompactName = "Pistol hold"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/pistolpose.png", "mips smooth")
 ATT.Description = [[tactical 
 
 eft extras attachment]]
@@ -202,7 +202,7 @@ ATT = {}
 
 ATT.PrintName = "Alternative viewmodel position (For pistols 2)"
 ATT.CompactName = "Pistol hold 2"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/pistol2pose.png", "mips smooth")
 ATT.Description = [[tactical 2
 
 eft extras attachment]]
@@ -277,7 +277,7 @@ ATT = {}
 
 ATT.PrintName = "Free buffs"
 ATT.CompactName = "Buffs"
-ATT.Icon = Material("arc9/ahmad.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/ahmad.png", "mips smooth")
 ATT.Description = [[Free buffs to make gameplay better
 
 please do not stack those
@@ -320,7 +320,7 @@ ATT = {}
 
 ATT.PrintName = "Disable jams"
 ATT.CompactName = "No jams"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/nojam.png", "mips smooth")
 ATT.Description = [[Disables jams and overheating]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -390,7 +390,7 @@ ATT = {}
 
 ATT.PrintName = "Ignore critical parts warning"
 ATT.CompactName = "Ignore warning"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/ignore.png", "mips smooth")
 ATT.Description = [[Makes your gun be able shoot without critical parts
 you are crazy fuck
 
@@ -436,7 +436,7 @@ ATT = {}
 
 ATT.PrintName = "Funny shell sounds"
 ATT.CompactName = "Funny shell sfx"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/pipe.png", "mips smooth")
 ATT.Description = [[:)
 
 eft extras attachment]]
