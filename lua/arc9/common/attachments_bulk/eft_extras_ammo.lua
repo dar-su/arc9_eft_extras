@@ -149,7 +149,7 @@ ATT.Hook_BulletImpact = function(wep,data)
     local test1 = !(ent:IsNPC() or ent:IsPlayer() or ent:IsNextBot()) and true or false
     local test2 = (!ent:GetBloodColor() or badblood[ent:GetBloodColor()]) and true or false
     if IsValid(ent) and (test1 or test2) then
-        data.dmg = data.dmg * cov:GetFloat()
+        data.dmg:SetDamage(data.dmg:GetDamage() * cov)
         local eff = EffectData()
         eff:SetOrigin(data.tr.HitPos)
         util.Effect("cball_bounce", eff)
