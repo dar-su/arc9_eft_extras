@@ -65,7 +65,7 @@ ATT = {}
 
 ATT.PrintName = "7.62x39mm API Z"
 ATT.CompactName = "API Z"
-ATT.Icon = Material("entities/eft_attachments/ammo/762x39/hp.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ammo/762x39/ps.png", "mips smooth")
 ATT.Description = [[A 7.62x39mm API Z (GRAU Index - 57-3-231) cartridge, an armour piercing incendiary cartridge intended for use on lightly armoured vehicles. Extremely rare round that was discontinued in the early 1960s.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -74,61 +74,61 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "7.62x39mm HP"
 
-ATT.DamageMax = 87 * mult39
-ATT.DamageMin = 54.4 * mult39
-ATT.PhysBulletMuzzleVelocity = 754 /0.0254
+ATT.DamageMax = 47 * mult39
+ATT.DamageMin = 31.21 * mult39
+ATT.PhysBulletMuzzleVelocity = 800 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
 ATT.SpreadMult = 1.05
--- ATT.RecoilMult = 1.05
--- ATT.VisualRecoilMult = 1.05
-ATT.HeatPerShotMult = 1
+ATT.RecoilMult = 1.12
+ATT.VisualRecoilMult = 1.08
+ATT.HeatPerShotMult = 1.75
 
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      15 *2.54/100/0.0254
-ATT.PenetrationDelta = 35/100
-ATT.ArmorPiercing =    35/100
-ATT.RicochetChance =   18/100
+ATT.Penetration =      71 *2.54/100/0.0254
+ATT.PenetrationDelta = 67/100
+ATT.ArmorPiercing =    83/100
+ATT.RicochetChance =   0/100
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    87 * mult39     },
+    47 * mult39     },
 
     {   100 /0.0254 * dmgrange, 
-    80.85 * mult39     },
+    43.72 * mult39     },
 
     {   200 /0.0254 * dmgrange, 
-    75.16 * mult39     },
+    40.23 * mult39     },
 
     {   300 /0.0254 * dmgrange, 
-    68.78 * mult39     },
+    37 * mult39     },
 
     {   400 /0.0254 * dmgrange, 
-    64.81 * mult39     },
+    35.1 * mult39     },
 
     {   500 /0.0254 * dmgrange, 
-    62.66 * mult39     },
+    34 * mult39     },
 
     {   600 /0.0254 * dmgrange, 
-    61.13 * mult39     },
+    33.2 * mult39     },
 
     {   700 /0.0254 * dmgrange, 
-    60 * mult39     },
+    32.6 * mult39     },
 
     {   800 /0.0254 * dmgrange, 
-    59 * mult39     },
+    32 * mult39     },
 
     {   900 /0.0254 * dmgrange, 
-    58.17 * mult39     },
+    31.62 * mult39     },
 
     {   1000 /0.0254 * dmgrange, 
-    57.41 * mult39     },
+    31.21 * mult39     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 80.85	75.16	68.78	64.81	62.66	61.13	59.97	59	58.17	57.41
+-- 43.72	40.23	37.03	35.09	34	    33.21	32.59	32.06	31.62	31.21
 
 ATT.Category = {"eft_ammo_76239"}
 
@@ -136,10 +136,6 @@ ATT.Category = {"eft_ammo_76239"}
 -- urban extras but arc9
 
 ATT.DamageTypeOverride = DMG_BURN + DMG_BULLET
-
-
-ATT.ExplosionDamage = 22
-ATT.ExplosionRadius = 15
 ATT.ExplosionEffect = "eft_explosion_round"
 ATT.ImpactDecal = "FadingScorch"
 
