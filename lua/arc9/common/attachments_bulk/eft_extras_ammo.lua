@@ -137,7 +137,6 @@ ATT.Category = {"eft_ammo_76239"}
 
 ATT.DamageTypeOverride = DMG_BURN + DMG_BULLET
 ATT.ExplosionEffect = "eft_explosion_round"
-ATT.ImpactDecal = "FadingScorch"
 
 local cov = 1 -- ??
 
