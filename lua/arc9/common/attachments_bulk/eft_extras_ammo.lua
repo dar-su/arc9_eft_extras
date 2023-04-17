@@ -137,6 +137,12 @@ ATT.Category = {"eft_ammo_76239"}
 
 ATT.DamageTypeOverride = DMG_BURN + DMG_BULLET
 
+
+ATT.ExplosionDamage = 22
+ATT.ExplosionRadius = 15
+ATT.ExplosionEffect = "eft_explosion_round"
+ATT.ImpactDecal = "FadingScorch"
+
 local cov = 1 -- ??
 
 local badblood = { -- it's actually the good type
@@ -146,8 +152,18 @@ local badblood = { -- it's actually the good type
 
 ATT.Hook_BulletImpact = function(wep,data)
     local ent = data.tr.Entity
+    
     local test1 = !(ent:IsNPC() or ent:IsPlayer() or ent:IsNextBot()) and true or false
     local test2 = (!ent:GetBloodColor() or badblood[ent:GetBloodColor()]) and true or false
+
+    if IsValid(ent) and !test1 then
+        if vFireInstalled then
+            CreateVFire(ent, data.tr.HitPos, data.tr.HitNormal, data.dmg:GetDamage() * 0.02)
+        else
+            ent:Ignite(1, 0)
+        end
+    end
+
     if IsValid(ent) and (test1 or test2) then
         data.dmg:SetDamage(data.dmg:GetDamage() * cov)
         local eff = EffectData()
