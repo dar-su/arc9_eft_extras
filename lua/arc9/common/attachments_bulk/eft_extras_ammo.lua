@@ -9,8 +9,8 @@ local ATT = {}
 
 ATT = {}
 
-ATT.PrintName = "12/70 \"explosive\" slug"
-ATT.CompactName = "Explosive"
+ATT.PrintName = "[!] 12/70 \"explosive\" slug"
+ATT.CompactName = "[!] Explosive"
 ATT.Icon = Material("entities/eft_attachments/ammo/12x70/g40.png", "mips smooth")
 ATT.Description = [[Homemade 12/70 round for 12 gauge shotguns with an exlosive charge. The recipe was printed in a rare issue of the magazine "Homemade reloads", which was never published. Uses a cartridge case from a 12/70 "Poleva-6u" round.
 
@@ -63,10 +63,12 @@ ARC9.LoadAttachment(ATT, "eft_ammo_12x70_explosive")
 
 ATT = {}
 
-ATT.PrintName = "7.62x39mm API Z"
-ATT.CompactName = "API Z"
+ATT.PrintName = "[!] 7.62x39mm API Z"
+ATT.CompactName = "[!] API Z"
 ATT.Icon = Material("entities/eft_attachments/ammo/762x39/ps.png", "mips smooth")
-ATT.Description = [[A 7.62x39mm API Z (GRAU Index - 57-3-231) cartridge, an armour piercing incendiary cartridge intended for use on lightly armoured vehicles. Extremely rare round that was discontinued in the early 1960s.]]
+ATT.Description = [[A 7.62x39mm API Z (GRAU Index - 57-3-231) cartridge, an armour piercing incendiary cartridge intended for use on lightly armoured vehicles. Extremely rare round that was discontinued in the early 1960s.
+
+eft extras attachment]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
