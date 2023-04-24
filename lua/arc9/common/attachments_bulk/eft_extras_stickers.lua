@@ -263,7 +263,7 @@ ATT.ActivateElements = {"eft_axmc_mag308"}
 ATT.Attachments = {
     {
         PrintName = "Sticker",
-        StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_mag308.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_mag762.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(-1, 0, 0),
