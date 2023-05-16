@@ -158,15 +158,15 @@ ATT.CustomCons = { Ergonomics = "-2" }
 
 local path = "weapons/darsu_eft/r700/"
 
-ATT.ShootSound = path .. "rem700_outdoor_close1.wav"
-ATT.ShootSoundIndoor = path .. "rem700_indoor_close1.wav"
-ATT.DistantShootSound = path .. "rem700_outdoor_distant1.wav"
-ATT.DistantShootSoundIndoor = path .. "rem700_indoor_distant1.wav"
+ATT.ShootSound = path .. "rem700_outdoor_close1.ogg"
+ATT.ShootSoundIndoor = path .. "rem700_indoor_close1.ogg"
+ATT.DistantShootSound = path .. "rem700_outdoor_distant1.ogg"
+ATT.DistantShootSoundIndoor = path .. "rem700_indoor_distant1.ogg"
 
-ATT.ShootSoundSilenced = path .. "rem700_outdoor_silenced_close.wav"
-ATT.ShootSoundSilencedIndoor = path .. "rem700_indoor_silenced_close1.wav"
-ATT.DistantShootSoundSilenced = path .. "rem700_outdoor_silenced_distant.wav"
-ATT.DistantShootSoundSilencedIndoor = path .. "rem700_indoor_silenced_distant1.wav"
+ATT.ShootSoundSilenced = path .. "rem700_outdoor_silenced_close.ogg"
+ATT.ShootSoundSilencedIndoor = path .. "rem700_indoor_silenced_close1.ogg"
+ATT.DistantShootSoundSilenced = path .. "rem700_outdoor_silenced_distant.ogg"
+ATT.DistantShootSoundSilencedIndoor = path .. "rem700_indoor_silenced_distant1.ogg"
 ATT.ActivateElements = {"eft_axmc_bolt308"}
 ATT.Attachments = {
     {
