@@ -73,6 +73,41 @@ ATT.Attachments = {
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_alt_rifle_hold")
 
+///////////////////////////////////////      eft_extras_alt_rifle_hold15
+
+
+ATT = {}
+
+ATT.PrintName = "Alternative viewmodel position (For rifles 1.5)"
+ATT.CompactName = "Rifle hold 1.5"
+ATT.Icon = Material("entities/eft_extras_attachments/rif15pose.png", "mips smooth")
+ATT.Description = [[tactical 
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.ViewModelFOVBase = (69+65)/2
+ATT.ActivePos = Vector(-1.8, (-5.5)/2, -0.15)
+ATT.ActiveAng = Angle(0, 0, -1.8)
+ATT.SprintAng = Angle(35, -10, -20)
+ATT.SprintPos = Vector(4, -4, 2)
+ATT.CrouchPos = Vector(-2.8, -4, -0.2)
+ATT.CrouchAng = Angle(0, 0, -12)
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_alt_rifle_hold15")
+
 ///////////////////////////////////////      eft_extras_alt_rifle2_hold
 
 
@@ -143,6 +178,41 @@ ATT.Attachments = {
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_alt_pistol_hold")
 
+///////////////////////////////////////      eft_extras_alt_pistol_hold15
+
+
+ATT = {}
+
+ATT.PrintName = "Alternative viewmodel position (For pistols 1.5)"
+ATT.CompactName = "Pistol hold 1.5"
+ATT.Icon = Material("entities/eft_extras_attachments/pistol15pose.png", "mips smooth")
+ATT.Description = [[tactical 
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.ViewModelFOVBase = 70
+ATT.ActivePos = Vector(-2.6, -5, 0.3)
+ATT.ActiveAng = Angle(0, 0, -5)
+ATT.SprintAng = Angle(-2, 30, -7)
+ATT.SprintPos = Vector(-1, -4, -8)
+ATT.CrouchPos = Vector(-3.6, -7, -0.92)
+ATT.CrouchAng = Angle(0, 0, -20)
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_alt_pistol_hold15")
+
 ///////////////////////////////////////      eft_extras_alt_pistol2_hold
 
 
@@ -177,6 +247,43 @@ ATT.Attachments = {
 
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_alt_pistol2_hold")
+
+///////////////////////////////////////      eft_extras_alt_pistol3_hold
+
+
+ATT = {}
+
+ATT.PrintName = "Alternative viewmodel position (For pistols 3)"
+ATT.CompactName = "Pistol hold 3"
+ATT.Icon = Material("entities/eft_extras_attachments/mw.png", "mips smooth")
+ATT.Description = [[realism 3
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.ViewModelFOVBase = 70
+ATT.ActivePos = Vector(-4.75, -7, -2.2)
+ATT.ActiveAng = Angle(0, 0, -17)
+ATT.ReloadPos = Vector(-3, -3, -1)
+ATT.ReloadAng = Angle(0, 0, -13)
+ATT.SprintAng = Angle(-2, 30, -7)
+ATT.SprintPos = Vector(-1, -4, -10)
+ATT.CrouchPos = Vector(-4.75, -5, -2)
+ATT.CrouchAng = Angle(0, 0, -25)
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_alt_pistol3_hold")
 
 
 
@@ -360,6 +467,9 @@ ATT.HasStock = true
 ATT.HasHandguard = true
 ATT.HasReceiver = true
 ATT.HasChassis = true
+ATT.HasHammer = true
+ATT.HasLock = true
+ATT.HasTrigger = true
 
 
 ATT.Category = {"eft_custom_slot"}
