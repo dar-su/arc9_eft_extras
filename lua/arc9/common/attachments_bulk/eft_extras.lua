@@ -521,3 +521,34 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_extras_metalpipeshell")
+
+
+///////////////////////////////////////      eft_57_resound
+
+
+ATT = {}
+
+ATT.PrintName = "Resound by rzen1th"
+ATT.CompactName = "New sounds"
+ATT.Icon = Material("entities/eft_extras_attachments/chere.png", "mips smooth")
+ATT.Description = [[you have to   make them  44.1khz   audacity being stupid]]
+
+ATT.SortOrder = -99
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+local path = "weapons/darsu_eft/rzenithresound/"
+ATT.ShootSound = { path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg" }
+ATT.ShootSoundIndoor = { path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot_fn57"}
+
+ARC9.LoadAttachment(ATT, "eft_57_resound")
