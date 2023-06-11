@@ -552,3 +552,35 @@ ATT.Attachments = {
 ATT.Category = {"eft_custom_slot_fn57"}
 
 ARC9.LoadAttachment(ATT, "eft_57_resound")
+
+
+///////////////////////////////////////      eft_mag_usp_ext
+
+ATT = {}
+
+ATT.PrintName = "HK USP.45 ACP Extended 17-round magazine"
+ATT.CompactName = "[!] Extended"
+ATT.Icon = Material("entities/eft_usp_attachments/12.png", "mips smooth")
+ATT.Description = [[A regular 12-round .45 ACP magazine fitted with ProMag +5 magazine extension for the USP45 pistol.
+
+eft extras attachment]]
+
+ATT.SortOrder = 99
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.EFTErgoAdd = -7
+ATT.CustomCons = { Ergonomics = "-7" }
+
+ATT.MalfunctionMeanShotsToFailMult = 0.93
+ATT.ReloadTimeMult = 1.25
+
+ATT.Model = "models/weapons/arc9/darsu_eft/extras/mag_usp_extended.mdl"
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/extras/mag_usp_extended.mdl"
+ATT.ChamberSize = 1
+ATT.ClipSize = 17
+ATT.DropMagazineAmount = 1
+ATT.SuppressEmptySuffix = false 
+ATT.ActivateElements = {"hasmag"}
+
+ATT.Category = {"eft_usp_mag"}
+
+ARC9.LoadAttachment(ATT, "eft_mag_usp_ext")
