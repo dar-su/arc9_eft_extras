@@ -663,24 +663,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Category = {"eft_ash12_mag"}
-ATT.Attachments = {
-    {
-        PrintName = "Sticker",
-        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag1.mdl",
-        Category = "stickers",
-        ForceNoCosmetics = true,
-        Pos = Vector(1.1, -0.5, 2.5),
-        Ang = Angle(0, 0, 0),
-    },
-    {
-        PrintName = "Sticker",
-        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag2.mdl",
-        Category = "stickers",
-        ForceNoCosmetics = true,
-        Pos = Vector(0.4, -0.5, 6.3),
-        Ang = Angle(0, 0, 0),
-    },
-}
+
 
 
 ATT.HasMag = true 
@@ -692,3 +675,109 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/ash12mag20.mdl"
 
 
 ARC9.LoadAttachment(ATT, "eft_ash12_mag_20_stick")
+
+
+///////////////////////////////////////      eft_ks23_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "KS-23 Stickers"
+ATT.CompactName = "KS23 Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/ksbodystick.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_ks23"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(12.5, 1, -3.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(9.5, 1, -3.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(6, 1, -3.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_ks23_body_sticker")
+
+///////////////////////////////////////      eft_ks23_stock_wood_sticker
+
+ATT = {}
+
+ATT.PrintName = "KS-23 wooden stock with stickerrrs"
+ATT.CompactName = "KS23 wood STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/ksstockstick.png", "mips smooth")
+ATT.Description = [[A wooden stock for the KS-23 shotgun with a rubber butt-plate. with stickre
+
+eft extras attachment]]
+
+ATT.ActivateElements = {"eft_ks23_stock_wood"}
+
+ATT.HasGrip = true
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_ks23_stock"}
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.66
+ATT.VisualRecoilMult = 0.66
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_stock1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(3.5, -1, 2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_stock2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(6.6, -1, 2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_stock3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(10, -1, 3),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_ks23_stock_wood_sticker")
