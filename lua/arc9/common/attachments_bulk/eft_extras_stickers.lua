@@ -781,3 +781,109 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_ks23_stock_wood_sticker")
+
+
+///////////////////////////////////////      eft_m870_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "M870 Stickers"
+ATT.CompactName = "M870 Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/870bodysticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_m870"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(12.0, 1, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(9.5, 1, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(7, 1, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_m870_body_sticker")
+
+///////////////////////////////////////      eft_m870_stock_sps_sticker
+
+ATT = {}
+
+ATT.PrintName = "M870 SPS polymer stock with stickerrrs"
+ATT.CompactName = "M870 SPS STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/870spssticker.png", "mips smooth")
+ATT.Description = [[A classical-looking polymer stock for the Remington Model 870 shotgun, equipped with a rubber butt-pad. Manufactured by Remington. with stickre
+
+eft extras attachment]]
+
+ATT.ActivateElements = {"eft_m870_stock_sps"}
+
+ATT.HasGrip = true
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_m870_stock"}
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.66
+ATT.VisualRecoilMult = 0.66
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_s1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-1, -4, 2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_s2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-1, -7.5, 2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_s3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-1, -11, 3),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_m870_stock_sps_sticker")
