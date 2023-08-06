@@ -584,3 +584,34 @@ ATT.ActivateElements = {"hasmag"}
 ATT.Category = {"eft_usp_mag"}
 
 ARC9.LoadAttachment(ATT, "eft_mag_usp_ext")
+
+
+///////////////////////////////////////      eft_extras_manual_pump
+
+
+ATT = {}
+
+ATT.PrintName = "Manual shotgun pump"
+ATT.CompactName = "Manual pump"
+ATT.Icon = Material("entities/eft_extras_attachments/manualpump.png", "mips smooth")
+ATT.Description = [[Allows the Manual Cycling setting to be used with shotguns. EFT shotguns normally bypass this setting.
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.SlamFireOverride = false
+-- ATT.ManualActionNoLastCycleOverride = true -- no shell eject, immersion ruined
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_manualpump")
