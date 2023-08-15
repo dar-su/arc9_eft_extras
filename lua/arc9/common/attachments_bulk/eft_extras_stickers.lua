@@ -887,3 +887,139 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_m870_stock_sps_sticker")
+
+
+///////////////////////////////////////      eft_pkm_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "PK Stickers"
+ATT.CompactName = "PK Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/pkmbodysticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_pk"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-16.5, -1, -5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-8.5, -1, -5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-6.5, -1, -5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker D",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_4.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-6, 0, -7.5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_pkm_body_sticker")
+
+///////////////////////////////////////      eft_pkm_stock_sticker
+
+ATT = {}
+
+ATT.PrintName = "PKP polymer stock with stickerrrs"
+ATT.CompactName = "PKP STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/pkmstocksticker.png", "mips smooth")
+ATT.Description = [[A standard-issue stock for PKP "Pecheneg" machine gun. Manufactured by V.A. Degtyarev Plant.. with stickre
+
+eft extras attachment]]
+
+ATT.ActivateElements = {"eft_stock_pkm_pl"}
+
+ATT.HasGrip = true
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_pk_stock"}
+
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.VisualRecoilMult = 0.71
+ATT.RecoilMult = 0.71
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker S",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_stock.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(4, 0, 3),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_pkm_stock_sticker")
+
+///////////////////////////////////////      eft_pkm_mag_sticker
+
+ATT = {}
+
+ATT.PrintName = "PK 7.62x54R 100-round box"
+ATT.CompactName = "PK STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/pkmmagsticker.png", "mips smooth")
+ATT.Description = [[A standard-issue 100-round ammunition box for 7.62x54R ammo for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant. with stickre
+
+eft extras attachment]]
+
+ATT.ActivateElements = {"eft_pkm_mag_100"}
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ChamberSize = 1
+ATT.ClipSize = 100
+
+ATT.EFTErgoAdd = -30
+ATT.CustomCons = { Ergonomics = "-30" }
+ATT.MalfunctionMeanShotsToFailMult = 0.99
+
+ATT.Category = {"eft_mag_pkm"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker M",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_mag.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(2, 1, 3),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_pkm_mag_sticker")
