@@ -1023,3 +1023,803 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_pkm_mag_sticker")
+
+///////////////////////////////////////      eft_scar_upper_h_stickers
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR-H 7.62x51 upper receiver"
+ATT.CompactName = "Mk17 STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/lupstickers.png", "mips smooth")
+ATT.Description = [[An upper receiver for the SCAR-H assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment. Comes in black and flat dark earth. ]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_upperh"}
+
+ATT.ActivateElements = {"eft_scar_upper_h"}
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
+        Pos = Vector(4, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"IronsBlockingSight"},
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
+        Pos = Vector(7.6, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Barrel",
+        Category = "eft_scarh_barrel",
+        Pos = Vector(-1, 0, -1.25),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.2, 0, 0),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_ar_frontsight", "eft_frontsight"},
+        Pos = Vector(-8, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(-4.5, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Bottom Mount",
+        Category = {"eft_scar_mount_bottom"},
+        Pos = Vector(-1.5, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Side Mount",
+        Category = {"eft_scar_mount_side"},
+        Pos = Vector(-7, 0, -1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"eft_scar_rail_mrex"},
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-5, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(4.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker D",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(7.2, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_upper_h_stickers")
+
+///////////////////////////////////////      eft_scar_upper_h_f_stickers
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR-H 7.62x51 upper receiver (FDE)"
+ATT.CompactName = "Mk17 (F) STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/lupfstickers.png", "mips smooth")
+ATT.Description = [[An upper receiver for the SCAR-H assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment. Comes in black and flat dark earth. Flat Dark Earth version.]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_upperh"}
+
+ATT.ActivateElements = {"eft_scar_upper_h_f"}
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
+        Pos = Vector(4, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"IronsBlockingSight"},
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
+        Pos = Vector(7.6, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Barrel",
+        Category = "eft_scarh_barrel",
+        Pos = Vector(-1, 0, -1.25),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.2, 0, 0),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_ar_frontsight", "eft_frontsight"},
+        Pos = Vector(-8, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(-4.5, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Bottom Mount",
+        Category = {"eft_scar_mount_bottom"},
+        Pos = Vector(-1.5, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Side Mount",
+        Category = {"eft_scar_mount_side"},
+        Pos = Vector(-7, 0, -1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"eft_scar_rail_mrex"},
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-5, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(4.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker D",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(7.2, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_scar_upper_h_f_stickers")
+
+///////////////////////////////////////      eft_scar_upper_l_sticker
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR-L 5.56x45 upper receiver"
+ATT.CompactName = "Mk16 STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/lupstickers.png", "mips smooth")
+ATT.Description = [[An upper receiver for the SCAR-L assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment.]]
+
+ATT.ActivateElements = {"eft_scar_upper_l"}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_upperl"}
+
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
+        Pos = Vector(4, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"IronsBlockingSight"},
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
+        Pos = Vector(7.6, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Barrel",
+        Category = "eft_scarl_barrel",
+        Pos = Vector(-1, 0, -1.25),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.2, 0, 0),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_ar_frontsight", "eft_frontsight"},
+        Pos = Vector(-7.25, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(-4.0, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Bottom Mount",
+        Category = {"eft_scar_mount_bottom"},
+        Pos = Vector(-1.5, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Side Mount",
+        Category = {"eft_scar_mount_side"},
+        Pos = Vector(-7, 0, -1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"eft_scar_rail_mrex"},
+    },    
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-5, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(4.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker D",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(7.2, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_upper_l_sticker")
+
+
+///////////////////////////////////////      eft_scar_upper_f_sticker
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR-L 5.56x45 upper receiver (FDE)"
+ATT.CompactName = "Mk16 (F) STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/lupfstickers.png", "mips smooth")
+ATT.Description = [[An upper receiver for the SCAR-L assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment. Flat Dark Earth version.]]
+
+ATT.ActivateElements = {"eft_scar_upper_l_f"}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_upperl"}
+
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
+        Pos = Vector(4, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"IronsBlockingSight"},
+    },
+    {
+        PrintName = "Rear sight",
+        Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
+        Pos = Vector(7.6, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Barrel",
+        Category = "eft_scarl_barrel",
+        Pos = Vector(-1, 0, -1.25),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.2, 0, 0),
+    },
+    {
+        PrintName = "Front sight",
+        Category = {"eft_ar_frontsight", "eft_frontsight"},
+        Pos = Vector(-7.25, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Backup",
+        Category = {"eft_backupmount"},
+        Pos = Vector(0, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExtraSightDistance = 8
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top", "eft_tactical_top_big"},
+        Pos = Vector(-4.0, 0, -2.8),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Bottom Mount",
+        Category = {"eft_scar_mount_bottom"},
+        Pos = Vector(-1.5, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Side Mount",
+        Category = {"eft_scar_mount_side"},
+        Pos = Vector(-7, 0, -1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        ExcludeElements = {"eft_scar_rail_mrex"},
+    },    
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-5, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(4.75, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker D",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(7.2, -0.8, -1.25),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_upper_f_sticker")
+
+///////////////////////////////////////      eft_scar_stock_base_stick
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR folding polymer stock"
+ATT.CompactName = "SCAR fold. STICK"
+ATT.Icon = Material("entities/eft_extras_attachments/sbasestickers.png", "mips smooth")
+ATT.Description = [[A folding polymer stock for the SCAR-series rifles, manufactured by Fabrique Nationale Herstal.]]
+
+ATT.ActivateElements = {"eft_scar_stock_base"}
+ATT.HasStock = true
+-- ATT.EFTErgoAdd = 13
+-- ATT.CustomPros = { Ergonomics = "+13" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_stock"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Extension",
+        Category = {"eft_scar_stockext"},
+        Pos = Vector(3, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Cheek",
+        Category = {"eft_scar_stockcheek"},
+        Pos = Vector(3, 0, -1.5),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(2.15, -0.6, 0.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(4, -0.6, 0.7),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_stock_base_stick")
+
+///////////////////////////////////////      eft_scar_stock_base_f_stick
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR folding polymer stock (FDE)"
+ATT.CompactName = "SCAR fold. (F) STICK"
+ATT.Icon = Material("entities/eft_extras_attachments/sbasefstickers.png", "mips smooth")
+ATT.Description = [[A folding polymer stock for the SCAR-series rifles, manufactured by Fabrique Nationale Herstal. Flat Dark Earth version.]]
+
+ATT.ActivateElements = {"eft_scar_stock_base_f"}
+ATT.HasStock = true
+-- ATT.EFTErgoAdd = 13
+-- ATT.CustomPros = { Ergonomics = "+13" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_stock"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Extension",
+        Category = {"eft_scar_stockext"},
+        Pos = Vector(3, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Cheek",
+        Category = {"eft_scar_stockcheek"},
+        Pos = Vector(3, 0, -1.5),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(2.15, -0.6, 0.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(4, -0.6, 0.7),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_stock_base_f_stick")
+
+///////////////////////////////////////      eft_scar_stock_ext_stick
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR retractable polymer stock"
+ATT.CompactName = "SCAR retr. STICK"
+ATT.Icon = Material("entities/eft_extras_attachments/sexstickers.png", "mips smooth")
+ATT.Description = [[A retractable polymer stock for the SCAR-series assault rifles, manufactured by Fabrique Nationale Herstal.]]
+
+ATT.ActivateElements = {"eft_scar_stock_ext"}
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+ATT.RecoilMult = 0.76
+ATT.VisualRecoilMult = 0.76
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_stockext"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Butt",
+        Category = {"eft_scar_stockpad"},
+        Pos = Vector(6.5, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(3.5, -0.5, 0.2),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_stock_ext_stick")
+
+///////////////////////////////////////      eft_scar_stock_ext_f_stick
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR retractable polymer stock (FDE)"
+ATT.CompactName = "SCAR retr. (F) STICK"
+ATT.Icon = Material("entities/eft_extras_attachments/sexfstickers.png", "mips smooth")
+ATT.Description = [[A retractable polymer stock for the SCAR-series assault rifles, manufactured by Fabrique Nationale Herstal. Flat Dark Earth version.]]
+
+ATT.ActivateElements = {"eft_scar_stock_ext_f"}
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+ATT.RecoilMult = 0.76
+ATT.VisualRecoilMult = 0.76
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_stockext"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Butt",
+        Category = {"eft_scar_stockpad"},
+        Pos = Vector(6.5, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(3.5, -0.5, 0.2),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_stock_ext_f_stick")
+
+///////////////////////////////////////      eft_scar_stock_cheeck_stick
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR cheek rest"
+ATT.CompactName = "SCAR cheek STICK"
+ATT.Icon = Material("entities/eft_extras_attachments/chestickers.png", "mips smooth")
+ATT.Description = [[A standard cheek rest that is installed on top of the FN SCAR polymer stock. Manufactured by Fabrique Nationale Herstal.]]
+
+ATT.ActivateElements = {"eft_scar_stock_cheeck"}
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_stockcheek"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.5, -0.65, 0.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.4, -0.65, 0.75),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-1.5, 0, -0.4),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_stock_cheeck_stick")
+
+///////////////////////////////////////      eft_scar_stock_cheeck_f_stick
+
+ATT = {}
+
+ATT.PrintName = "FN SCAR cheek rest (FDE)"
+ATT.CompactName = "SCAR cheek (F) STICK"
+ATT.Icon = Material("entities/eft_extras_attachments/chefstickers.png", "mips smooth")
+ATT.Description = [[A standard cheek rest that is installed on top of the FN SCAR polymer stock. Manufactured by Fabrique Nationale Herstal. Flat Dark Earth version.]]
+
+ATT.ActivateElements = {"eft_scar_stock_cheeck_f"}
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_scar_stockcheek"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.5, -0.65, 0.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.4, -0.65, 0.75),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-1.5, 0, -0.4),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_scar_stock_cheeck_f_stick")
+
+
+///////////////////////////////////////      eft_scar_sticker_frame
+
+ATT = {}
+
+ATT.PrintName = "SCAR-H\\L Sticker Slots"
+ATT.CompactName = "Sticker Frame"
+ATT.Icon = Material("entities/eft_extras_attachments/scarframesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+Sticker A comes in H and L variations. Use proper one pwease!!!
+eft extras attachment]]
+ATT.Free = true
+ATT.SortOrder = -89
+ATT.Max = 1
+
+ATT.Category = {"eft_custom_scar"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A (H)",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-12.2, -0.8, -1.2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker A (L)",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase1_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-12.2, -0.8, -0.6),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-8.1, -0.8, -1),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-5.6, -0.8, -1),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot","eft_custom_scar"},
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_scar_sticker_frame")
+
