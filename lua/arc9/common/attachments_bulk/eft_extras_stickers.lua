@@ -1331,7 +1331,7 @@ ATT.Attachments = {
     },    
     {
         PrintName = "Sticker A",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(-5, -0.8, -1.25),
@@ -1339,7 +1339,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Sticker B",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(0.75, -0.8, -1.25),
@@ -1347,7 +1347,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Sticker C",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(4.75, -0.8, -1.25),
@@ -1355,7 +1355,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Sticker D",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(7.2, -0.8, -1.25),
@@ -1444,7 +1444,7 @@ ATT.Attachments = {
     },    
     {
         PrintName = "Sticker A",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(-5, -0.8, -1.25),
@@ -1452,7 +1452,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Sticker B",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(0.75, -0.8, -1.25),
@@ -1460,7 +1460,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Sticker C",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(4.75, -0.8, -1.25),
@@ -1468,7 +1468,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Sticker D",
-        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
+        StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
         Pos = Vector(7.2, -0.8, -1.25),
