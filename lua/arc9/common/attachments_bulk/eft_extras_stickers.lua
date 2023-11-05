@@ -1823,3 +1823,210 @@ ATT.Attachments = {
 }
 ARC9.LoadAttachment(ATT, "eft_scar_sticker_frame")
 
+
+///////////////////////////////////////      eft_tx_sticker_frame
+
+ATT = {}
+
+ATT.PrintName = "TX Sticker Slots"
+ATT.CompactName = "TX STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/txframesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+Stickers for the AR platform yay!!!
+eft extras attachment]]
+ATT.Free = true
+ATT.SortOrder = -89
+ATT.Max = 1
+ATT.ExcludeElements = {"eft_m4_sticker_frame","eft_adar_sticker_frame","eft_hk_sticker_frame"}
+
+ATT.Category = {"eft_custom_slot_m4a1"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_tx1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 12.22, -5.2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_tx2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 9.3, -5.5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_tx3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 7.6, -5.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_tx_sticker_frame")
+
+
+///////////////////////////////////////      eft_m4_sticker_frame
+
+ATT = {}
+
+ATT.PrintName = "M4 Sticker Slots"
+ATT.CompactName = "M4 STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/m4framesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+Stickers for the AR platform yay!!!
+eft extras attachment]]
+ATT.Free = true
+ATT.SortOrder = -89
+ATT.Max = 1
+ATT.ExcludeElements = {"eft_tx_sticker_frame","eft_hk_sticker_frame","eft_adar_sticker_frame"}
+
+ATT.Category = {"eft_custom_slot_m4a1"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_m1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 12.22, -5.2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_m2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 9.3, -5.5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_m3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 7.6, -5.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_m4_sticker_frame")
+
+
+///////////////////////////////////////      eft_hk_sticker_frame
+
+ATT = {}
+
+ATT.PrintName = "HK Sticker Slots"
+ATT.CompactName = "HK STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/hkframesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+Stickers for the AR platform yay!!!
+eft extras attachment]]
+ATT.Free = true
+ATT.SortOrder = -89
+ATT.Max = 1
+ATT.ExcludeElements = {"eft_tx_sticker_frame","eft_m4_sticker_frame","eft_adar_sticker_frame"}
+
+ATT.Category = {"eft_custom_slot_m4a1"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_hk1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 12.22, -5.2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_hk2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 9.3, -5.5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_hk3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 7.6, -5.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_hk_sticker_frame")
+
+
+///////////////////////////////////////      eft_adar_sticker_frame
+
+ATT = {}
+
+ATT.PrintName = "ADAR Sticker Slots"
+ATT.CompactName = "ADAR STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/adarframesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+Stickers for the AR platform yay!!!
+eft extras attachment]]
+ATT.Free = true
+ATT.SortOrder = -89
+ATT.Max = 1
+ATT.ExcludeElements = {"eft_tx_sticker_frame","eft_m4_sticker_frame","eft_hk_sticker_frame"}
+
+ATT.Category = {"eft_custom_slot_m4a1"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_adar1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 12.22, -5.2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_adar2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 9.3, -5.5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_adar3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-0.6, 7.6, -5.7),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
+    },
+}
+ARC9.LoadAttachment(ATT, "eft_adar_sticker_frame")
