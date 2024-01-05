@@ -336,6 +336,7 @@ ATT.Icon = Material("entities/eft_extras_attachments/ahmad.png", "mips smooth")
 ATT.Description = [[Free buffs to make gameplay better
 
 please do not stack those
+combine with Quicker Recoil for cod experience
 
 eft extras attachment]]
 ATT.SortOrder = 0
@@ -344,8 +345,10 @@ ATT.AttNotForNPCs = true
 
 ATT.EFTErgoAdd = 35
 ATT.CustomPros = { Ergonomics = "+35" }
-ATT.RecoilMult = 0.7
-ATT.VisualRecoilMult = 0.7
+ATT.RecoilMult = 0.9
+ATT.VisualRecoilMult = 0.9
+ATT.VisualRecoilSideMult = 0.75
+ATT.RecoilRandomSideMult = 0.5
 ATT.MalfunctionMeanShotsToFailMult = 3
 ATT.TracerNum = 1
 ATT.DeployTimeMult = 0.7
@@ -366,6 +369,41 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_extras_freestats")
+
+///////////////////////////////////////      eft_extras_fasterrecoil
+
+
+ATT = {}
+
+ATT.PrintName = "Quicker recoil"
+ATT.CompactName = "Quick Recoil"
+ATT.Icon = Material("entities/eft_extras_attachments/ahmad.png", "mips smooth")
+ATT.Description = [[Will make recoil return back quicker and will reduce it a little
+please do not stack more than 3 of those, it will make recoil glitchy
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.RecoilAutoControlMult = 1.5
+ATT.VisualRecoilDampingConstMult = 2
+ATT.RecoilKickMult = 0.5
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+
+
+ARC9.LoadAttachment(ATT, "eft_extras_fasterrecoil")
 
 
 ///////////////////////////////////////      eft_extras_nojams
