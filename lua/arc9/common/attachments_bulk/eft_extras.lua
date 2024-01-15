@@ -58,8 +58,8 @@ ATT.ActivePos = Vector(-1.8, -3.5, 0.2)
 ATT.ActiveAng = Angle(0, 0, -1.75)
 ATT.SprintAng = Angle(35, -10, -20)
 ATT.SprintPos = Vector(4, -4, 2)
-ATT.CrouchPos = Vector(-2.8, -4, -0.2)
-ATT.CrouchAng = Angle(0, 0, -12)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -4)
 
 ATT.Attachments = {
     {
@@ -93,8 +93,8 @@ ATT.ActivePos = Vector(-1.8, (-5.5)/2, -0.15)
 ATT.ActiveAng = Angle(0, 0, -1.8)
 ATT.SprintAng = Angle(35, -10, -20)
 ATT.SprintPos = Vector(4, -4, 2)
-ATT.CrouchPos = Vector(-2.8, -4, -0.2)
-ATT.CrouchAng = Angle(0, 0, -12)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -4)
 
 ATT.Attachments = {
     {
@@ -128,8 +128,8 @@ ATT.ActivePos = Vector(-1.8, -2, -0.5)
 ATT.ActiveAng = Angle(0, 0, -2)
 ATT.SprintAng = Angle(35, -10, -20)
 ATT.SprintPos = Vector(4, -4, 2)
-ATT.CrouchPos = Vector(-2.8, -4, -0.2)
-ATT.CrouchAng = Angle(0, 0, -12)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -4)
 
 ATT.Attachments = {
     {
@@ -163,8 +163,8 @@ ATT.ActivePos = Vector(-2.6, -5, 0.9)
 ATT.ActiveAng = Angle(0, 0, -5)
 ATT.SprintAng = Angle(-2, 30, -7)
 ATT.SprintPos = Vector(-1, -4, -7)
-ATT.CrouchPos = Vector(-3.6, -7, -0.92)
-ATT.CrouchAng = Angle(0, 0, -20)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
@@ -198,8 +198,8 @@ ATT.ActivePos = Vector(-2.6, -5, 0.3)
 ATT.ActiveAng = Angle(0, 0, -5)
 ATT.SprintAng = Angle(-2, 30, -7)
 ATT.SprintPos = Vector(-1, -4, -8)
-ATT.CrouchPos = Vector(-3.6, -7, -0.92)
-ATT.CrouchAng = Angle(0, 0, -20)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
@@ -233,8 +233,8 @@ ATT.ActivePos = Vector(-2.6, -5, -0.3)
 ATT.ActiveAng = Angle(0, 0, -5)
 ATT.SprintAng = Angle(-2, 30, -7)
 ATT.SprintPos = Vector(-1, -4, -10)
-ATT.CrouchPos = Vector(-3.6, -7, -0.92)
-ATT.CrouchAng = Angle(0, 0, -20)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
@@ -270,8 +270,8 @@ ATT.ReloadPos = Vector(-3, -3, -1)
 ATT.ReloadAng = Angle(0, 0, -13)
 ATT.SprintAng = Angle(-2, 30, -7)
 ATT.SprintPos = Vector(-1, -4, -10)
-ATT.CrouchPos = Vector(-4.75, -5, -2)
-ATT.CrouchAng = Angle(0, 0, -25)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
