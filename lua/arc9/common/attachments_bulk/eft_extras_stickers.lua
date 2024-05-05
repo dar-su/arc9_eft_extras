@@ -2048,3 +2048,84 @@ ATT.Attachments = {
     },
 }
 ARC9.LoadAttachment(ATT, "eft_adar_sticker_frame")
+
+
+
+
+///////////////////////////////////////      eft_mp9_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "MP9 Stickers"
+ATT.CompactName = "MP9 Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/mp9sticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_mp9"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/mp9_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-9, -1, -3),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/mp9_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-4, -1, -3),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mp9_body_sticker")
+
+///////////////////////////////////////      eft_mp7_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "MP7 Stickers"
+ATT.CompactName = "MP7 Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/mp7sticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_mp7"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/mp7_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-4, -1, -3),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mp7_body_sticker")
