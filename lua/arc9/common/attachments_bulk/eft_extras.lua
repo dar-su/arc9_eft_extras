@@ -437,43 +437,45 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_extras_nojams")
 
--- ///////////////////////////////////////      eft_extras_forcedreset
+///////////////////////////////////////      eft_extras_forcedreset
 
--- -- might remove? make specific for guns
--- ATT = {}
+ATT = {}
 
--- ATT.PrintName = "Full auto"
--- ATT.CompactName = "Full auto"
--- ATT.Icon = Material("entities/eft_extras_attachments/arccw_uc_forcedresettrigger.png", "mips smooth")
--- ATT.Description = [[makes your semi gun go bang bangbangbangbangbangbnghggfhfghjofdjgidf
+ATT.PrintName = "Full auto"
+ATT.CompactName = "Full auto"
+ATT.Icon = Material("entities/eft_extras_attachments/autosear.png", "mips smooth")
+ATT.Description = [[makes your semi gun go brrrrrrrr
 
--- do not use on full auto guns
+do not use on full auto guns
 
--- eft extras att, icon from Urban Coalition]]
--- ATT.SortOrder = 0
--- ATT.MenuCategory = "ARC9 - EFT Attachments"
+eft extras att]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
--- ATT.MalfunctionMeanShotsToFailMult = 0.8
+ATT.CustomPros = { ["More fun"] = "True" }
+ATT.CustomCons = { Illegal = "Very" }
+ATT.MalfunctionMeanShotsToFailMult = 0.8
 -- ATT.RecoilMult = 3
 -- ATT.RecoilKick = 1
 -- ATT.VisualRecoilMult = 0.4
+ATT.RPMMult = 1.5
 
--- ATT.Firemodes = { { Mode = -1, RPMMult = 1.25 } }
+ATT.Firemodes = { { Mode = -1 } }
 
--- ATT.Category = {"eft_custom_slot"}
+ATT.Category = {"eft_custom_slot"}
 
--- ATT.Attachments = {
---     {
---         PrintName = "Custom slot",
---         Pos = Vector(0, 0, 1),
---         Ang = Angle(0, 0, 0),
---         Category = {"eft_custom_slot"},
---     },
--- }
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
 
 
 
--- ARC9.LoadAttachment(ATT, "eft_extras_forcedreset")
+ARC9.LoadAttachment(ATT, "eft_extras_forcedreset")
 
 
 ///////////////////////////////////////      eft_extras_ignorepartswarning
@@ -504,6 +506,7 @@ ATT.HasBufferTube = true
 ATT.HasStock = true
 ATT.HasHandguard = true
 ATT.HasReceiver = true
+ATT.HasReciever = true -- fuck
 ATT.HasChassis = true
 ATT.HasHammer = true
 ATT.HasLock = true

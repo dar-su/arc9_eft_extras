@@ -663,6 +663,24 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Category = {"eft_ash12_mag"}
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.1, -0.5, 2.5),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.1, -0.5, 5),
+        Ang = Angle(0, 0, 0),
+    },
+}
 
 
 
