@@ -57,7 +57,7 @@ ATT.ViewModelFOVBase = 69
 ATT.ActivePos = Vector(-1.8, -3.5, 0.2)
 ATT.ActiveAng = Angle(0, 0, -1.75)
 ATT.SprintAng = Angle(35, -10, -20)
-ATT.SprintPos = Vector(4, -4, 2)
+ATT.SprintPos = Vector(4, -4, 1)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -4)
 
@@ -92,7 +92,7 @@ ATT.ViewModelFOVBase = (69+65)/2
 ATT.ActivePos = Vector(-1.8, (-5.5)/2, -0.15)
 ATT.ActiveAng = Angle(0, 0, -1.8)
 ATT.SprintAng = Angle(35, -10, -20)
-ATT.SprintPos = Vector(4, -4, 2)
+ATT.SprintPos = Vector(4, -4, 0)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -4)
 
@@ -127,7 +127,7 @@ ATT.ViewModelFOVBase = 65
 ATT.ActivePos = Vector(-1.8, -2, -0.5)
 ATT.ActiveAng = Angle(0, 0, -2)
 ATT.SprintAng = Angle(35, -10, -20)
-ATT.SprintPos = Vector(4, -4, 2)
+ATT.SprintPos = Vector(4, -4, -1)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -4)
 
