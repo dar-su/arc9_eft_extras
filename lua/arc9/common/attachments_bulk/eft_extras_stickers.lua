@@ -2129,3 +2129,55 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_mp7_body_sticker")
+
+
+///////////////////////////////////////      eft_aug_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "AUG Stickers"
+ATT.CompactName = "AUG Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/augsticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_aug"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aug_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, -1, 0),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aug_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-4, -1, -1),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aug_3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-9, -1, -3),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot", "eft_custom_aug"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_aug_body_sticker")

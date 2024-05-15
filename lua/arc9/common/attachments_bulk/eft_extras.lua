@@ -636,6 +636,7 @@ ATT.PrintName = "Manual shotgun pump"
 ATT.CompactName = "Manual pump"
 ATT.Icon = Material("entities/eft_extras_attachments/manualpump.png", "mips smooth")
 ATT.Description = [[Allows the Manual Cycling setting to be used with shotguns. EFT shotguns normally bypass this setting.
+Don't forget to turn on Manual Cycling in ARC9 settings > Gameplay tab!
 
 eft extras attachment]]
 ATT.SortOrder = 0
@@ -822,3 +823,35 @@ ATT.BackstabSound = {path .. "body1.ogg", path .. "body2.ogg", path .. "body3.og
 
 ATT.Category = {"eft_custom_slot_lungeaddon"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_backstab")
+
+
+///////////////////////////////////////      eft_aug_mag_30_pmag
+
+ATT = {}
+
+ATT.PrintName = "5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine For AUG"
+ATT.CompactName = "GEN M3 30"
+ATT.Icon = Material("entities/eft_ar15_attachments/mag/556x45_magpul_pmag_30_gen_m3_w_stanag_30round_magazine.png", "mips smooth")
+ATT.Description = [[30-round polymer Magpul PMAG GEN M3 30 magazine, for 5.56x45 ammunition, with an observation slot.
+
+eft extras attachment]]
+
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_aug_mag"}
+
+ATT.ActivateElements = {"mag30"}
+
+ATT.ClipSize = 30
+ATT.ChamberSize = 1
+ATT.SuppressEmptySuffix = false 
+ATT.DropMagazineAmount = 1
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_window_556x45_30.mdl"
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pmag_gen_m3_window_556x45_30.mdl"
+ATT.ModelOffset = Vector(1.25, 0, 0.5)
+
+ARC9.LoadAttachment(ATT, "eft_aug_mag_30_pmag")
