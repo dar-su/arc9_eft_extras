@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"entities\eft_extras_attachments\meleelunge"
+     "$alphatest"	"1"
+     "$decal"		"1"
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "12"
+}
+}
+}

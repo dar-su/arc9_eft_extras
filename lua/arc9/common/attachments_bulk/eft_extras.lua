@@ -656,3 +656,169 @@ ATT.Attachments = {
 
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_manualpump")
+
+
+///////////////////////////////////////      eft_extras_melee_range
+
+
+ATT = {}
+
+ATT.PrintName = "Longer Reach"
+ATT.CompactName = "Reach"
+ATT.Icon = Material("entities/eft_extras_attachments/longreach.png", "mips smooth")
+ATT.Description = [[Adds 24 HU to reach so you actually have an arm now.
+
+eft extras attachment]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.BashRangeAdd = 24
+ATT.Bash2RangeAdd = 24
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot_melee"}
+ARC9.LoadAttachment(ATT, "eft_extras_melee_range")
+
+
+///////////////////////////////////////      eft_extras_melee_bash
+
+
+ATT = {}
+
+ATT.PrintName = "Melee While Sprinting"
+ATT.CompactName = "Sprint"
+ATT.Icon = Material("entities/eft_extras_attachments/meleebash.png", "mips smooth")
+ATT.Description = [[Allows to use melee when running.
+
+eft extras attachment]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.CustomPros = { ["Fun"] = "hell yeah" }
+ATT.BashWhileSprintOverride = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot_melee"}
+ARC9.LoadAttachment(ATT, "eft_extras_melee_bash")
+
+///////////////////////////////////////      eft_extras_melee_lunge
+
+
+ATT = {}
+
+ATT.PrintName = "Lunge"
+ATT.CompactName = "Lunge"
+ATT.Icon = Material("entities/eft_extras_attachments/meleelunge", "mips smooth")
+ATT.Description = [[Allows to lunge like in call of duty idk.
+
+eft extras attachment]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.BashLungeRange = 75
+ATT.Bash2LungeRange = 75
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+    {
+        PrintName = "Lunge Tweaks",
+        Pos = Vector(0, 1, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_lungeaddon"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot_melee"}
+ARC9.LoadAttachment(ATT, "eft_extras_melee_lunge")
+
+///////////////////////////////////////      eft_extras_melee_lungemore
+
+
+ATT = {}
+
+ATT.PrintName = "More Distance"
+ATT.CompactName = "Distance"
+ATT.Icon = Material("entities/eft_extras_attachments/meleelunge", "mips smooth")
+ATT.Description = [[commando pro
+
+eft extras attachment]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.BashLungeRangeAdd = 75
+ATT.Bash2LungeRangeAdd = 75
+
+ATT.Attachments = {
+    {
+        PrintName = "Lunge Tweaks",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_lungeaddon"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot_lungeaddon"}
+ARC9.LoadAttachment(ATT, "eft_extras_melee_lungemore")
+
+///////////////////////////////////////      eft_extras_melee_backstab
+
+
+ATT = {}
+
+ATT.PrintName = "Backstab"
+ATT.CompactName = "Backstab"
+ATT.Icon = Material("entities/eft_extras_attachments/backstab.png", "mips smooth")
+ATT.Description = [[Backstabs now oneshot everyone.
+
+eft extras attachment]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+ATT.Max = 1
+
+ATT.Attachments = {
+    {
+        PrintName = "Lunge Tweaks",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_lungeaddon"},
+    },
+}
+
+ATT.CustomPros = { ["Allow Backstabs"] = "True" }
+ATT.Backstab = true
+ATT.BackstabDamage = 250
+ATT.BackstabRange = 2 / ARC9.HUToM
+ATT.PreBackstabTime = 0.3
+ATT.PostBackstabTime = 0.6
+ATT.BackstabDamageType = DMG_SLASH
+local path = "weapons/darsu_eft/melee/"
+ATT.BackstabSound = {path .. "body1.ogg", path .. "body2.ogg", path .. "body3.ogg", path .. "body4.ogg", path .. "body5.ogg", path .. "body6.ogg"}
+
+ATT.Category = {"eft_custom_slot_lungeaddon"}
+ARC9.LoadAttachment(ATT, "eft_extras_melee_backstab")
