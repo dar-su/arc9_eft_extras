@@ -2181,3 +2181,53 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_aug_body_sticker")
+
+///////////////////////////////////////      eft_mount_usp_match_stickers
+
+ATT = {}
+
+ATT.PrintName = "HK USP .45 ACP Match compensator With stickers"
+ATT.CompactName = "USP45M+"
+ATT.Icon = Material("entities/eft_extras_attachments/matchcompstickers.png", "mips smooth")
+ATT.Description = [[The Match compensator from the special USP Match pistol kit will add additional weight to the front of your gun assisting to reduce vertical recoil "bounce". Features a mount for installation of additional tactical equipment. Manufactured by Heckler & Koch.]]
+ATT.ActivateElements = {"eft_mount_usp_match"}
+
+ATT.EFTErgoAdd = -12
+ATT.CustomCons = { Ergonomics = "-12" }
+ATT.VisualRecoilMult = 0.85
+ATT.RecoilMult = 0.85
+
+ATT.SortOrder = -99
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_usp_tac"}
+
+ATT.ExcludeElements = { "eft_slide_usp_elite", "eft_slide_usp_expert", "eft_barrel_usp_std", "eft_barrel_usp_expert", "eft_barrel_usp_tac" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Tactical",
+        Category = {"eft_tactical_pistol"},
+        Pos = Vector(-0.55, 0, -0.76),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0.5),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/usp_sticker1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-2.2, 0, 0.8),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/usp_sticker2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(-2.8, 0, 0.05),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_usp_match_stickers")

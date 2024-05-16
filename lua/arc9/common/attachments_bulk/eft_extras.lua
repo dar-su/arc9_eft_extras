@@ -659,6 +659,37 @@ ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_manualpump")
 
 
+///////////////////////////////////////      eft_extras_cooling
+
+
+ATT = {}
+
+ATT.PrintName = "Water Cooling"
+ATT.CompactName = "Cooling"
+ATT.Icon = Material("entities/eft_extras_attachments/watercool.png", "mips smooth")
+ATT.Description = [[Makes guns able to shoot longer before becoming molten metal.
+Intended for AS VAL/VSS VINTOREZ but who cares.
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.HeatCapacityMult = 3
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_cooling")
+
+
 ///////////////////////////////////////      eft_extras_melee_range
 
 
@@ -823,6 +854,38 @@ ATT.BackstabSound = {path .. "body1.ogg", path .. "body2.ogg", path .. "body3.og
 
 ATT.Category = {"eft_custom_slot_lungeaddon"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_backstab")
+
+///////////////////////////////////////      eft_extras_melee_swingspeed
+
+ATT = {}
+
+ATT.PrintName = "Faster Swing Speed"
+ATT.CompactName = "Speed"
+ATT.Icon = Material("entities/eft_extras_attachments/meleeswing.png", "mips smooth")
+ATT.Description = [[Swing and stab faster.
+
+eft extras attachment]]
+ATT.SortOrder = -1
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.CustomPros = { ["Swing/Stab Speed"] = "+25%" }
+ATT.PreBashTimeMult = 0.75
+ATT.PreBash2TimeMult = 0.75
+ATT.PostBashTimeMult = 0.75
+ATT.PostBash2TimeMult = 0.75
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot_melee"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot_melee"}
+ARC9.LoadAttachment(ATT, "eft_extras_melee_swingspeed")
 
 
 ///////////////////////////////////////      eft_aug_mag_30_pmag
