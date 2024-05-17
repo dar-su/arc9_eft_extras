@@ -918,3 +918,59 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_stanag_magpul_pm
 ATT.ModelOffset = Vector(1.25, 0, 0.5)
 
 ARC9.LoadAttachment(ATT, "eft_aug_mag_30_pmag")
+
+
+///////////////////////////////////////      eft_frontsight_mp7f
+
+
+ATT = {}
+
+ATT.PrintName = "HK MP7 flip-up front sight Folded"
+ATT.CompactName = "MP7 (F)"
+ATT.Icon = Material("entities/eft_extras_attachments/mp7f_fold.png", "mips smooth")
+ATT.Description = [[A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fs_hkmp7.mdl"
+
+ATT.Category = {"eft_frontsight"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelBodygroups = "01" 
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+ARC9.LoadAttachment(ATT, "eft_frontsight_mp7f")
+
+///////////////////////////////////////      eft_rearsight_mp7f
+
+
+ATT = {}
+
+ATT.PrintName = "HK MP7 flip-up rear sight Folded"
+ATT.CompactName = "MP7 (F)"
+ATT.Icon = Material("entities/eft_extras_attachments/mp7_fold.png", "mips smooth")
+ATT.Description = [[A removable folding flip-up rear sight for MP7 SMGs. Manufactured by Heckler & Koch.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/rs_hkmp7.mdl"
+
+ATT.Category = {"eft_rearsight"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelBodygroups = "01" 
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 7.5, -0.68),
+        Ang = Angle(0, -0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 53,
+        IsIronSight = true
+    }
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_rearsight_mp7f")
