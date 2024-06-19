@@ -451,6 +451,7 @@ do not use on full auto guns
 eft extras att]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
 
 ATT.CustomPros = { ["More fun"] = "True" }
 ATT.CustomCons = { Illegal = "Very" }
