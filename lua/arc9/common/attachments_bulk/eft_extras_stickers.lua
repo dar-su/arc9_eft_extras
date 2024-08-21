@@ -2239,3 +2239,50 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_mount_usp_match_stickers")
+
+
+
+///////////////////////////////////////      eft_deagle_sticker
+
+ATT = {}
+
+ATT.PrintName = "DEagle Stickers"
+ATT.CompactName = "Desert Eagle Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/deaglesticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_deagle"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/deagle_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 4, -3),
+        Ang = Angle(0, 0, 0),
+        ExcludeElements = {"eft_l5"}
+    },
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/deagle_1_l5.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 4, -3),
+        Ang = Angle(0, 0, 0),
+        RequireElements = {"eft_l5"},
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_deagle_sticker")
