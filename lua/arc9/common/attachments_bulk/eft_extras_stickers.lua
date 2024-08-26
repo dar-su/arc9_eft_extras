@@ -2286,3 +2286,45 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_deagle_sticker")
+///////////////////////////////////////      eft_vector_sticker
+
+ATT = {}
+
+ATT.PrintName = "Vector Stickers"
+ATT.CompactName = "KRISS Vector Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/vectorsticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_vector"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/vector_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 4, -3),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/vector_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 4, -3),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_vector_sticker")
