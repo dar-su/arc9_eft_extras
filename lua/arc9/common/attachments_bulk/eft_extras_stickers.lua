@@ -2328,3 +2328,135 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_vector_sticker")
+
+///////////////////////////////////////      eft_rearsight_stickermbus
+
+ATT = {}
+
+ATT.PrintName = "Magpul MBUS Gen2 Sticker RS"
+ATT.CompactName = "MBUS STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/rearsight_stickermbus.png", "mips smooth")
+ATT.Description = [[The MBUS Gen2 removable flip-up rear sight, installed on the mount. Manufactured by Magpul.
+<color=255,0,0>DOESN'T FOLD WITH SIGHTS ON. USE DEFAULT ONES IF YOU WANT A FOLDED RS!!!]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/silly_eft/rearsight_mbus_sticks.mdl"
+
+ATT.ToggleStats = {
+    {
+        PrintName = "NO GLASS",
+        ModelBodygroups = "01"
+    },
+    {
+        PrintName = "YES GLASS",
+        ModelBodygroups = "00"
+    },
+}
+
+ATT.Category = {"eft_rearsight"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, -0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+
+--[[
+░░███████ ]▄▄▄▄▄▄▄▄ - - - FIGHT AGAINST ARC9 AND SAVE GARYS MOD
+▂▄▅████████▅▄▃▂        COPY AND PASTE TANK TO JOIN WAR!
+I███████████████████]
+◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
+]]
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rearsight_mbus_sticker.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.25, 0, -0.6),
+        Ang = Angle(0, 0, 0),
+
+    },
+}
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 7.5, -1.345),
+        Ang = Angle(0, -0, 0),
+        Magnification = 1.1,
+        IsIronSight = true
+    }
+}
+
+ATT.HoloSight = false
+ATT.HoloSightReticle = Material("arc9/eotech.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 800
+ATT.HoloSightColorable = true
+
+ARC9.LoadAttachment(ATT, "eft_rearsight_stickermbus")
+
+///////////////////////////////////////      eft_rearsight_stickermbus_fde
+
+ATT = {}
+
+ATT.PrintName = "Magpul MBUS Gen2 Sticker RS FDE"
+ATT.CompactName = "MBUS STICKER"
+ATT.Icon = Material("entities/eft_extras_attachments/rearsight_stickermbus_fde.png", "mips smooth")
+ATT.Description = [[The MBUS Gen2 removable flip-up rear sight, installed on the mount. Manufactured by Magpul.
+<color=255,0,0>DOESN'T FOLD WITH SIGHTS ON. USE DEFAULT ONES IF YOU WANT A FOLDED RS!!!]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/silly_eft/rearsight_mbus_sticks.mdl"
+
+ATT.ToggleStats = {
+    {
+        PrintName = "NO GLASS",
+        ModelBodygroups = "01"
+    },
+    {
+        PrintName = "YES GLASS",
+        ModelBodygroups = "00"
+    },
+}
+
+ATT.Category = {"eft_rearsight"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelSkin = 1
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, -0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/silly_eft/rearsight_mbus_sticker.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(1.25, 0, -0.6),
+        Ang = Angle(0, 0, 0),
+
+    },
+}
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 7.5, -1.345),
+        Ang = Angle(0, -0, 0),
+        Magnification = 1.1,
+        IsIronSight = true
+    }
+}
+
+ATT.HoloSight = false
+ATT.HoloSightReticle = Material("arc9/eotech.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 800
+ATT.HoloSightColorable = true
+
+ARC9.LoadAttachment(ATT, "eft_rearsight_stickermbus_fde")

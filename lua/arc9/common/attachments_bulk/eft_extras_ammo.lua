@@ -170,3 +170,49 @@ ATT.Hook_BulletImpact = function(wep,data)
 end
 
 ARC9.LoadAttachment(ATT, "eft_ammo_76239_apiz")
+
+
+
+///////////////////////////////////////      eft_ammo_12x70_salt
+
+ATT = {}
+
+ATT.PrintName = "[!] 12/70 salt buckshot"
+ATT.CompactName = "[!] Salt"
+ATT.Icon = Material("entities/eft_attachments/ammo/12x70/def.png", "mips smooth")
+ATT.Description = [[Homemade 12/70 round for 12 gauge shotguns with salt loaded. Uses a cartridge case from a 12/70 "5.25mm buckshot" round.
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 salt buckshot"
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
+ATT.ActivateElements = {"eft_ammo_12x70_std"}
+
+ATT.DamageMax = 1
+ATT.DamageMin = 0
+ATT.PhysBulletMuzzleVelocity = 320 /0.0254
+
+ATT.RangeMin = 1
+ATT.RangeMax = 15 /0.0254
+
+ATT.Penetration =      1 *2.54/100/0.0254
+ATT.PenetrationDelta = 26/100
+ATT.ArmorPiercing =    26/100
+ATT.RicochetChance =   0/100
+
+ATT.Num = 24
+-- ATT.RecoilMult = 1.15
+-- ATT.VisualRecoilMult = 1.25
+ATT.SpreadMult = 7
+ATT.HeatPerShotMult = 0.8
+
+ATT.Override_DamageType = DMG_BURN + DMG_AIRBOAT
+ATT.DamageType = DMG_BURN + DMG_AIRBOAT
+
+ATT.Category = {"eft_ammo_12x70"}
+
+ARC9.LoadAttachment(ATT, "eft_ammo_12x70_salt")

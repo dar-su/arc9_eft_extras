@@ -954,3 +954,33 @@ ATT.Sights = {
 
 
 ARC9.LoadAttachment(ATT, "eft_rearsight_mp7f")
+
+///////////////////////////////////////      eft_extras_sealedbolt
+
+
+ATT = {}
+
+ATT.PrintName = "Sealed Bolt"
+ATT.CompactName = "Sealed"
+ATT.Icon = Material("entities/eft_extras_attachments/arccw_uc_sealedbolt.png", "mips smooth")
+ATT.Description = [[Allows any weapon to fire underwater.
+idk why.
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.CanFireUnderwater = true
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_sealedbolt")
