@@ -984,3 +984,38 @@ ATT.Attachments = {
 
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_sealedbolt")
+
+
+///////////////////////////////////////      eft_mk18_mag_30
+
+ATT = {}
+
+ATT.PrintName = "Mk-18 .338 LM 30-round kitbashed drum"
+ATT.CompactName = "Mk-18 Drum"
+ATT.Icon = Material("entities/eft_sa58_attachments/50.png", "mips smooth")
+ATT.Description = [[is a 30-round drum magazine for Mk-18 .338 rounds. Manufactured by X Products.
+
+Needs fal pack
+eft extras attachment]]
+
+ATT.EFTErgoAdd = -20
+ATT.CustomCons = { Ergonomics = "-20" }
+ATT.MalfunctionMeanShotsToFailMult = 0.774
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_mk18_mag"}
+
+ATT.ActivateElements = {"mag50"}
+
+ATT.ClipSize = 30
+ATT.ChamberSize = 1
+ATT.SuppressEmptySuffix = false 
+ATT.DropMagazineAmount = 1
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_mk18_fucking_drum.mdl"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_mk18_fucking_drum.mdl"
+ATT.ModelAngleOffset = Angle(0, -90, 0)
+-- ATT.ModelOffset = Vector(1.5, 0, -3)
+
+ARC9.LoadAttachment(ATT, "eft_mk18_mag_30")

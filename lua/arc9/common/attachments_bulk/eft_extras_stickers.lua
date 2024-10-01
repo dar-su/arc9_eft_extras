@@ -2460,3 +2460,46 @@ ATT.HoloSightSize = 800
 ATT.HoloSightColorable = true
 
 ARC9.LoadAttachment(ATT, "eft_rearsight_stickermbus_fde")
+
+///////////////////////////////////////      eft_g36_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "G36 Stickers"
+ATT.CompactName = "G36 Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/g36sticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_g36"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/g36_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 17, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/g36_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 12, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_g36_body_sticker")
