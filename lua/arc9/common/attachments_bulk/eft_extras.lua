@@ -1028,7 +1028,7 @@ ATT = {}
 
 ATT.PrintName = "HK MP5SD Custom polymer handguard"
 ATT.CompactName = "MP5SD HG RAIL"
-ATT.Icon = Material("entities/eft_mp5_attachments/hk_mp5sd_polymer_custom_handguard.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/hk_mp5sd_polymer_custom_handguard.png", "mips smooth")
 ATT.Description = "A polymer handguard for the MP5SD SMG, manufactured by Heckler & Koch. Now with rails"
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1074,3 +1074,39 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_mp5_hg_sd_cust")
+
+///////////////////////////////////////      eft_mp5_stock_tube
+
+
+ATT = {}
+
+ATT.PrintName = "HK MP5 Buffer Tube stock"
+ATT.CompactName = "MP5 Tube"
+ATT.Icon = Material("entities/eft_extras_attachments/hk_mp5_end_cap_tube.png", "mips smooth")
+ATT.Description = "A custom tube with a sling swivel for MP5 SMGs. Manufactured by Heckler & Koch."
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ActivateElements = {"eft_mp5_stock_cap"}
+
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+
+ATT.HasStock = true 
+
+ATT.Category = {"eft_mp5_stock"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Buffer Tube",
+        Category = "eft_ar15_buffertube",
+        Pos = Vector(-0.15, 0, -0.08),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-0.2, 0, 0.5),
+    },
+}
+
+ATT.CustomizePos = Vector(17, 23, 5.0)
+ATT.CustomizeRotateAnchor = Vector(17, -4.5, -5.23)
+
+ARC9.LoadAttachment(ATT, "eft_mp5_stock_tube")
