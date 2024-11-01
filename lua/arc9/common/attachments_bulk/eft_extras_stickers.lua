@@ -2503,3 +2503,70 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_g36_body_sticker")
+
+///////////////////////////////////////      eft_aa12_body_sticker
+
+ATT = {}
+
+ATT.PrintName = "AA-12 Stickers"
+ATT.CompactName = "AA-12 Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/aa12bodysticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_aa12"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker A",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 21, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker B",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_2.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 16, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker C",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_3.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 7, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker D",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_4.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, 2, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Sticker E",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_5.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(0, -3, -4),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_aa12_body_sticker")
