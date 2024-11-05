@@ -1,0 +1,8 @@
+VertexLitGeneric
+    {
+        "$basetexture" "stickers\dooms\doomhud_sticker"
+        "$alphatest"	"1"
+        "$decal"		"1"
+        "$nocull"		"1"
+        "$halflambert" "1"
+    }

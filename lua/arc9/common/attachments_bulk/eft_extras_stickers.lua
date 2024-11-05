@@ -2570,3 +2570,58 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_aa12_body_sticker")
+
+
+///////////////////////////////////////      eft_mp155_ultima_sticker
+
+ATT = {}
+
+ATT.PrintName = "Ultima Camera Stickers"
+ATT.CompactName = "Ultima Stickers"
+ATT.Icon = Material("entities/eft_extras_attachments/mp_ultima_sticker.png", "mips smooth")
+ATT.Description = [[STICKERS.
+
+eft extras attachment]]
+
+ATT.SortOrder = -20
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_custom_slot_mr153"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/arc9/darsu_eft/stickers/mr155ultima_1.mdl",
+        Category = "stickers",
+        ForceNoCosmetics = true,
+        Pos = Vector(6, 0, -6),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot","eft_custom_slot_mr153"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mp155_ultima_sticker")
+
+///////////////////////////////////////      sticker_doom_hud
+
+ATT = {}
+
+ATT.PrintName = "DOOM HUD"
+ATT.CompactName = "DOOM"
+ATT.Description = [[to play doom on mp155 ultima thermal
+
+ye.]]
+ATT.Icon = Material("stickers/dooms/doomhud")
+
+ATT.Free = true
+
+ATT.Category = "stickers"
+
+ATT.StickerMaterial = "stickers/dooms/doomhud"
+
+ARC9.LoadAttachment(ATT, "sticker_doom_hud")
