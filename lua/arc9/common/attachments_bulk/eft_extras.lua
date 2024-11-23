@@ -1101,3 +1101,114 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ARC9.LoadAttachment(ATT, "eft_optic_okp7_sigma")
 
+
+
+///////////////////////////////////////      eft_extras_alt_hold_gangsta
+
+
+
+ATT = {}
+
+ATT.PrintName = "Alternative gangster viewmodel position"
+ATT.CompactName = "Gangster hold"
+ATT.Icon = Material("entities/eft_extras_attachments/gangsterpose.png", "mips smooth")
+ATT.Description = 
+[[died 13 May, 2023     [ArcCW] [UC] Commons & Attachments 
+born 23 Nov, 2024    [ARC9] EFT Extras
+welcome back Homeboy
+eft extras attachment]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.ViewModelFOVBase = 70
+ATT.ActivePos = Vector(-0.65, -8, -6)
+ATT.ActiveAng = Angle(-2, 3, -80)
+ATT.ReloadPos = Vector(-3, 2, -1)
+ATT.ReloadAng = Angle(0, 0, -65)
+ATT.SprintAng = Angle(-2, 30, -7)
+ATT.SprintPos = Vector(-1, -4, -10)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -6)
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_afg.mdl"
+ATT.BoneMerge = true
+ATT.ModelOffset = Vector(-4000,-1000,-3000)
+ATT.Scale = 0
+ATT.ModelAngleOffset = Angle(90,180,90)
+
+ATT.HoldTypeDefault = "pistol"
+ATT.HoldTypeSprint = "pistol"
+ATT.HoldTypeHolstered = "pistol"
+ATT.HoldTypeSights = "pistol"
+
+ATT.LHIK = true
+ATT.LHIK_Priority  = 3
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_alt_hold_gangsta")
+
+///////////////////////////////////////      eft_extras_alt_hold_gangsta2
+
+
+
+ATT = {}
+
+ATT.PrintName = "Alternative gangster viewmodel position (for big guns)"
+ATT.CompactName = "Gangster hold 2"
+ATT.Icon = Material("entities/eft_extras_attachments/gangsterpose2.png", "mips smooth")
+ATT.Description = 
+[[died 13 May, 2023     [ArcCW] [UC] Commons & Attachments 
+born 23 Nov, 2024    [ARC9] EFT Extras
+welcome back Homeboy
+eft extras attachment]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.ViewModelFOVBase = 70
+ATT.ActivePos = Vector(-0.35, -4, -6.3)
+ATT.ActiveAng = Angle(-2, 3, -80)
+ATT.ReloadPos = Vector(-3, 2, -1)
+ATT.ReloadAng = Angle(0, 0, -65)
+ATT.SprintAng = Angle(-2, 30, -7)
+ATT.SprintPos = Vector(-1, -4, -10)
+ATT.CrouchPos = Vector(0, -2, -0.2)
+ATT.CrouchAng = Angle(0, 0, -6)
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_afg.mdl"
+ATT.BoneMerge = true
+ATT.ModelOffset = Vector(-4000,-1000,-3000)
+ATT.Scale = 0
+ATT.ModelAngleOffset = Angle(90,180,90)
+
+ATT.HoldTypeDefault = "pistol"
+ATT.HoldTypeSprint = "pistol"
+ATT.HoldTypeHolstered = "pistol"
+ATT.HoldTypeSights = "pistol"
+
+ATT.LHIK = true
+ATT.LHIK_Priority  = 3
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_extras_alt_hold_gangsta2")
