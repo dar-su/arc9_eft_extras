@@ -944,7 +944,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -0.68),
+        Pos = Vector(0, 7.5, -0.59),
         Ang = Angle(0, -0, 0),
         Magnification = 1.1,
         ViewModelFOV = 53,
