@@ -1118,7 +1118,7 @@ ATT.Attachments = {
         Pos = Vector(-7, 0, -1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        ExcludeElements = {"eft_scar_rail_mrex"},
+        ExcludeElements = {"nosiderail"},
     },
     {
         PrintName = "Sticker A",
@@ -1232,7 +1232,7 @@ ATT.Attachments = {
         Pos = Vector(-7, 0, -1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        ExcludeElements = {"eft_scar_rail_mrex"},
+        ExcludeElements = {"nosiderail"},
     },
     {
         PrintName = "Sticker A",
@@ -1335,17 +1335,17 @@ ATT.Attachments = {
     {
         PrintName = "Bottom Mount",
         Category = {"eft_scar_mount_bottom"},
-        Pos = Vector(-1.5, 0, 0),
+        Pos = Vector(-1.5 + 0.7, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
         PrintName = "Side Mount",
         Category = {"eft_scar_mount_side"},
-        Pos = Vector(-7, 0, -1),
+        Pos = Vector(-7 + 0.7, 0, -1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        ExcludeElements = {"eft_scar_rail_mrex"},
+        ExcludeElements = {"nosiderail"},
     },    
     {
         PrintName = "Sticker A",
@@ -1448,17 +1448,17 @@ ATT.Attachments = {
     {
         PrintName = "Bottom Mount",
         Category = {"eft_scar_mount_bottom"},
-        Pos = Vector(-1.5, 0, 0),
+        Pos = Vector(-1.5 + 0.7, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
         PrintName = "Side Mount",
         Category = {"eft_scar_mount_side"},
-        Pos = Vector(-7, 0, -1),
+        Pos = Vector(-7 + 0.7, 0, -1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        ExcludeElements = {"eft_scar_rail_mrex"},
+        ExcludeElements = {"nosiderail"},
     },    
     {
         PrintName = "Sticker A",
