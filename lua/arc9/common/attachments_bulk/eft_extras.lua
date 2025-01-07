@@ -1062,10 +1062,13 @@ ARC9.LoadAttachment(ATT, "eft_mp5_stock_tube")
 
 ATT = {}
 
-ATT.PrintName = "OKP-7 reflex sight"
+ATT.PrintName = "OKP-7 reflex sight (Alt reticle)"
 ATT.CompactName = "OKP-7"
 ATT.Icon = Material("entities/eft_extras_attachments/okp7.png", "mips smooth")
-ATT.Description = [[The original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing.]]
+ATT.Description = [[The original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing.
+
+With better reticle (from dovetail variant)
+eft extras attachment]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_ekb_okp7.mdl"
 ATT.Folder = "Reflex"
@@ -1094,7 +1097,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_ekb_okp
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 385
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.001
+ATT.HoloSightDepthAdjustment = -0.0035
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
