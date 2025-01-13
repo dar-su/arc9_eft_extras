@@ -1215,3 +1215,42 @@ ATT.Attachments = {
 
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_alt_hold_gangsta2")
+
+///////////////////////////////////////      eft_extras_onehandrun
+
+
+
+ATT = {}
+
+ATT.PrintName = "One handed sprint"
+ATT.CompactName = "One-hand sprint"
+ATT.Icon = Material("entities/eft_extras_attachments/gangsterpose2.png", "mips smooth")
+ATT.Description = 
+[[tactical mw 19 realism hardocre
+don't use on pistols and stock-less smgs - they already have this
+eft extras attachment]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+-- hooks because there hooks on smgs that will override this att
+local handupang, handuppos, handupholdtype = Angle(-2, 40, -7), Vector(0, -4, -10), "normal"
+ATT.OneHandedSprint = true
+ATT.OneHandedSprintHook = function(self, old) return true end
+ATT.SprintAngHook = function(self, old) return handupang end
+ATT.SprintPosHook = function(self, old) return handuppos end
+ATT.HoldTypeSprintHook = function(self, old) return handupholdtype end
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+
+ARC9.LoadAttachment(ATT, "eft_extras_onehandrun")
