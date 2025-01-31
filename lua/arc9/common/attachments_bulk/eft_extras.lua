@@ -161,8 +161,8 @@ ATT.AttNotForNPCs = true
 ATT.ViewModelFOVBase = 70
 ATT.ActivePos = Vector(-2.6, -5, 0.9)
 ATT.ActiveAng = Angle(0, 0, -5)
-ATT.SprintAng = Angle(-2, 30, -7)
-ATT.SprintPos = Vector(-1, -4, -7)
+ATT.SprintAng = Angle(3, 43, -5)
+ATT.SprintPos = Vector(3, -7.1, -15)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
@@ -196,8 +196,8 @@ ATT.AttNotForNPCs = true
 ATT.ViewModelFOVBase = 70
 ATT.ActivePos = Vector(-2.6, -5, 0.3)
 ATT.ActiveAng = Angle(0, 0, -5)
-ATT.SprintAng = Angle(-2, 30, -7)
-ATT.SprintPos = Vector(-1, -4, -8)
+ATT.SprintAng = Angle(3, 43, -5)
+ATT.SprintPos = Vector(3, -7.1, -16)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
@@ -231,8 +231,8 @@ ATT.AttNotForNPCs = true
 ATT.ViewModelFOVBase = 70
 ATT.ActivePos = Vector(-2.6, -5, -0.3)
 ATT.ActiveAng = Angle(0, 0, -5)
-ATT.SprintAng = Angle(-2, 30, -7)
-ATT.SprintPos = Vector(-1, -4, -10)
+ATT.SprintAng = Angle(3, 43, -5)
+ATT.SprintPos = Vector(3, -7.1, -17)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
@@ -268,8 +268,8 @@ ATT.ActivePos = Vector(-4.75, -7, -2.2)
 ATT.ActiveAng = Angle(0, 0, -17)
 ATT.ReloadPos = Vector(-3, -3, -1)
 ATT.ReloadAng = Angle(0, 0, -13)
-ATT.SprintAng = Angle(-2, 30, -7)
-ATT.SprintPos = Vector(-1, -4, -10)
+ATT.SprintAng = Angle(3, 43, -5)
+ATT.SprintPos = Vector(3, -7.1, -15)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
