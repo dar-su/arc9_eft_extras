@@ -1255,3 +1255,54 @@ ATT.Attachments = {
 ATT.Category = {"eft_custom_slot"}
 
 ARC9.LoadAttachment(ATT, "eft_extras_onehandrun")
+
+///////////////////////////////////////      eft_extras_camos
+
+ATT = {}
+
+ATT.PrintName = "Camo support for attachments"
+ATT.CompactName = "Camo support"
+ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Description = [[Enable if you want to colour the supported atts on unsupported gun without slots.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Free = true
+
+ATT.Category = {"eft_custom_slot"}
+ATT.Max = 1
+ATT.AttNotForNPCs = true 
+
+ATT.Attachments = {
+    {
+        PrintName = "Camouflage 1",
+        Pos = Vector(0, 5, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"universal_camo"},
+        ForceNoCosmetics = true,
+        IsAdvancedCamo1 = true,
+    },
+    {
+        PrintName = "Camouflage 2",
+        Pos = Vector(0, 3.5, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"universal_camo"},
+        ForceNoCosmetics = true,
+        IsAdvancedCamo2 = true,
+    },
+    {
+        PrintName = "Camouflage 3",
+        Pos = Vector(0, 2, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"universal_camo"},
+        ForceNoCosmetics = true,
+        IsAdvancedCamo3 = true,
+    },
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_extras_camos")
