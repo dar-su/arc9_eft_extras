@@ -1256,6 +1256,35 @@ ATT.Category = {"eft_custom_slot"}
 
 ARC9.LoadAttachment(ATT, "eft_extras_onehandrun")
 
+
+
+local camoslottable = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    }
+}
+
+local camoslottable2 = table.Copy(camoslottable)
+
+for a = 1, 2 do
+    local doingfirsttable = a == 1
+    for i = (doingfirsttable and 1 or 4), GetConVar("arc9_atts_maxcamos"):GetInt() do
+        table.insert(doingfirsttable and camoslottable or camoslottable2, 
+            {
+                PrintName = "Camouflage " .. i,
+                Pos = Vector(0, -i * 1.5 + (doingfirsttable and 0 or 3*1.5), 0),
+                Ang = Angle(0, 0, 0),
+                Category = {"universal_camo"},
+                -- ForceNoCosmetics = true,
+                ["IsAdvancedCamo" .. i] = true,
+            }
+        )
+    end
+end
+
 ///////////////////////////////////////      eft_extras_camos
 
 ATT = {}
@@ -1272,37 +1301,30 @@ ATT.Category = {"eft_custom_slot"}
 ATT.Max = 1
 ATT.AttNotForNPCs = true 
 
-ATT.Attachments = {
-    {
-        PrintName = "Camouflage 1",
-        Pos = Vector(0, 5, 0),
-        Ang = Angle(0, 0, 0),
-        Category = {"universal_camo"},
-        ForceNoCosmetics = true,
-        IsAdvancedCamo1 = true,
-    },
-    {
-        PrintName = "Camouflage 2",
-        Pos = Vector(0, 3.5, 0),
-        Ang = Angle(0, 0, 0),
-        Category = {"universal_camo"},
-        ForceNoCosmetics = true,
-        IsAdvancedCamo2 = true,
-    },
-    {
-        PrintName = "Camouflage 3",
-        Pos = Vector(0, 2, 0),
-        Ang = Angle(0, 0, 0),
-        Category = {"universal_camo"},
-        ForceNoCosmetics = true,
-        IsAdvancedCamo3 = true,
-    },
-    {
-        PrintName = "Custom slot",
-        Pos = Vector(0, 0, 1),
-        Ang = Angle(0, 0, 0),
-        Category = {"eft_custom_slot"},
-    },
-}
+ATT.Attachments = camoslottable
+ATT.ExcludeElements = {"eft_extras_camos_additional"}
 
 ARC9.LoadAttachment(ATT, "eft_extras_camos")
+
+if GetConVar("arc9_atts_maxcamos"):GetInt() > 3 then
+    ///////////////////////////////////////      eft_extras_camos_additional
+
+    ATT = {}
+
+    ATT.PrintName = "Extra Camo slots"
+    ATT.CompactName = "More camo slots"
+    ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+    ATT.Description = [[Your arc9_atts_maxcamos seems to be more than default value, so have extra slots!]]
+    ATT.SortOrder = 0
+    ATT.MenuCategory = "ARC9 - EFT Attachments"
+    ATT.Free = true
+
+    ATT.Category = {"eft_custom_slot"}
+    ATT.Max = 1
+    ATT.AttNotForNPCs = true 
+
+    ATT.Attachments = camoslottable2
+    ATT.ExcludeElements = {"eft_extras_camos"}
+
+    ARC9.LoadAttachment(ATT, "eft_extras_camos_additional")
+end
