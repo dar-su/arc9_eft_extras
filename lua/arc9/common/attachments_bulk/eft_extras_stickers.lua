@@ -259,7 +259,7 @@ ATT.ClipSize = 10
 ATT.ChamberSize = 1
 ATT.DropMagazineAmount = 1
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_axmc_762x51_10.mdl"
-ATT.ActivateElements = {"eft_axmc_mag308"}
+ATT.ActivateElements = {"eft_axmc_mag308", "mag762"}
 ATT.Attachments = {
     {
         PrintName = "Sticker",
@@ -296,7 +296,7 @@ ATT.ClipSize = 10
 ATT.ChamberSize = 1
 ATT.DropMagazineAmount = 1
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_axmc_86x70_10.mdl"
-ATT.ActivateElements = {"eft_axmc_mag338"}
+ATT.ActivateElements = {"eft_axmc_mag338", "magdef"}
 ATT.Attachments = {
     {
         PrintName = "Sticker",
