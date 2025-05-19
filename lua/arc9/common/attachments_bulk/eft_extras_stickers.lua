@@ -16,7 +16,7 @@ ATT.Category = {"eft_custom_glock"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/g17_sticker_frame.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -24,7 +24,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -55,27 +55,27 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_g17_rec"}
 ATT.Attachments = {
     {
-        PrintName = "Front sight",
+        PrintName = ARC9:GetPhrase("eft_cat_frontsight"),
         Category = "eft_g17_fs",
         Pos = Vector(0, 0, -0.02),
         Icon_Offset = Vector(4.5, 0, 0.3),
         Ang = Angle(0, -90, 0),
     },
     {
-        PrintName = "Rear sight",
+        PrintName = ARC9:GetPhrase("eft_cat_rearsight"),
         Category = "eft_g17_rs",
         Pos = Vector(0, -0.05, 0),
         Icon_Offset = Vector(-2, 0, 0.3),
         Ang = Angle(0, -90, 0),
     },
     {
-        PrintName = "Compensator",
+        PrintName = ARC9:GetPhrase("eft_cat_muzzle"),
         Category = "eft_g17_g4",
         Pos = Vector(0, 5, 0.6),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/g17_sticker1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -83,7 +83,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/g17_sticker2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -91,7 +91,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/g17_sticker3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -99,7 +99,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/g17_sticker4.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -107,7 +107,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/g17_sticker5.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -115,7 +115,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/g17_sticker6.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -170,7 +170,7 @@ ATT.DistantShootSoundSilencedIndoor = path .. "rem700_indoor_silenced_distant1.o
 ATT.ActivateElements = {"eft_axmc_bolt308"}
 ATT.Attachments = {
     {
-        PrintName = "Ammo type",
+        PrintName = ARC9:GetPhrase("eft_cat_ammo"),
         Category = "eft_ammo_762x51",
         Pos = Vector(0, 0, 5),
         Ang = Angle(0, 0, 0),
@@ -178,7 +178,7 @@ ATT.Attachments = {
         Integral = "eft_ammo_762x51_m61"
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_bolt.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -213,7 +213,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ActivateElements = {"eft_axmc_bolt338"}
 ATT.Attachments = {
     {
-        PrintName = "Ammo type",
+        PrintName = ARC9:GetPhrase("eft_cat_ammo"),
         Category = "eft_ammo_338",
         Pos = Vector(0, 0, 5),
         Ang = Angle(0, 0, 0),
@@ -221,7 +221,7 @@ ATT.Attachments = {
         Integral = "eft_ammo_338_fmj"
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_bolt.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -262,7 +262,7 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_axmc_762x51_10.m
 ATT.ActivateElements = {"eft_axmc_mag308", "mag762"}
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_mag762.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -299,7 +299,7 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_axmc_86x70_10.md
 ATT.ActivateElements = {"eft_axmc_mag338", "magdef"}
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_mag338.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -335,7 +335,7 @@ ATT.Category = {"eft_axmc_uprec"}
 ATT.ActivateElements = {"eft_axmc_upper"}
 ATT.Attachments = {
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("eft_cat_barrel"),
         Category = "eft_axmc_barrel338",
         RequireElements = {"eft_axmc_bolt338"},
         Pos = Vector(-3.5, 0, -0.2),
@@ -343,7 +343,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("eft_cat_barrel"),
         Category = "eft_axmc_barrel308",
         RequireElements = {"eft_axmc_bolt308"},
         Pos = Vector(-3.5, 0, -0.2),
@@ -351,14 +351,14 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Rear Sight",
+        PrintName = ARC9:GetPhrase("eft_cat_rearsight"),
         Category = {"eft_ar_rearsight", "eft_rearsight"},
         Pos = Vector(3.3, 0, -1.7),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
         ExcludeElements = {"IronsBlockingSight"},
         Pos = Vector(0, 0, -1.7),
@@ -366,7 +366,7 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_rec1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -374,7 +374,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_rec2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -382,7 +382,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/awp_sticker_rec3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -418,7 +418,7 @@ ATT.Category = {"eft_custom_slot_rsh12"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_frame1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -426,7 +426,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_frame2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -434,7 +434,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -471,7 +471,7 @@ ATT.Category = {"eft_rsh12_mag"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_baraban1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -479,7 +479,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_baraban2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -507,7 +507,7 @@ ATT.CustomPros = { Ergonomics = "+5" }
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_grip1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -515,7 +515,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rsh12_stick_grip2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -552,7 +552,7 @@ ATT.Category = {"eft_custom_slot_ash12"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -560,7 +560,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -568,7 +568,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
         {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -576,7 +576,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
         {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame4.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -584,7 +584,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
         {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_frame5.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -592,7 +592,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -622,7 +622,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_ash12_mag"}
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -665,7 +665,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_ash12_mag"}
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -673,7 +673,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/ash12_stick_mag2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -713,7 +713,7 @@ ATT.Category = {"eft_custom_slot_ks23"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -721,7 +721,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -729,7 +729,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -737,7 +737,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -773,7 +773,7 @@ ATT.VisualRecoilMult = 0.66
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_stock1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -781,7 +781,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_stock2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -789,7 +789,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/ks23_stock3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -819,7 +819,7 @@ ATT.Category = {"eft_custom_slot_m870"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -827,7 +827,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -835,7 +835,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -843,7 +843,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -879,7 +879,7 @@ ATT.VisualRecoilMult = 0.66
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_s1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -887,7 +887,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_s2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -895,7 +895,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/m870_s3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -925,7 +925,7 @@ ATT.Category = {"eft_custom_slot_pk"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -933,7 +933,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -941,7 +941,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -949,7 +949,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker D",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " D",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_4.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -957,7 +957,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -993,7 +993,7 @@ ATT.RecoilMult = 0.71
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker S",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " S",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_stock.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1031,7 +1031,7 @@ ATT.Category = {"eft_mag_pkm"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker M",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " M",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/pkm_mag.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1064,7 +1064,7 @@ ATT.CustomPros = { Ergonomics = "+2" }
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
         Pos = Vector(4, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1072,26 +1072,26 @@ ATT.Attachments = {
         ExcludeElements = {"IronsBlockingSight"},
     },
     {
-        PrintName = "Rear sight",
+        PrintName = ARC9:GetPhrase("eft_cat_rearsight"),
         Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
         Pos = Vector(7.6, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("eft_cat_barrel"),
         Category = "eft_scarh_barrel",
         Pos = Vector(-1, 0, -1.25),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-0.2, 0, 0),
     },
     {
-        PrintName = "Front sight",
+        PrintName = ARC9:GetPhrase("eft_cat_frontsight"),
         Category = {"eft_ar_frontsight", "eft_frontsight"},
         Pos = Vector(-8, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_backupmount"},
         Pos = Vector(0, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1099,21 +1099,21 @@ ATT.Attachments = {
         ExtraSightDistance = 8
     },
     {
-        PrintName = "Top Tactical",
+        PrintName = ARC9:GetPhrase("eft_cat_tactical_u"),
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
         Pos = Vector(-4.5, 0, -2.8),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0.5),
     },
     {
-        PrintName = "Bottom Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount_b"),
         Category = {"eft_scar_mount_bottom"},
         Pos = Vector(-1.5, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Side Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount"),
         Category = {"eft_scar_mount_side"},
         Pos = Vector(-7, 0, -1),
         Ang = Angle(0, 0, 0),
@@ -1121,7 +1121,7 @@ ATT.Attachments = {
         ExcludeElements = {"nosiderail"},
     },
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1129,7 +1129,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1137,7 +1137,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1145,7 +1145,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker D",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " D",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1178,7 +1178,7 @@ ATT.CustomPros = { Ergonomics = "+2" }
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
         Pos = Vector(4, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1186,26 +1186,26 @@ ATT.Attachments = {
         ExcludeElements = {"IronsBlockingSight"},
     },
     {
-        PrintName = "Rear sight",
+        PrintName = ARC9:GetPhrase("eft_cat_rearsight"),
         Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
         Pos = Vector(7.6, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("eft_cat_barrel"),
         Category = "eft_scarh_barrel",
         Pos = Vector(-1, 0, -1.25),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-0.2, 0, 0),
     },
     {
-        PrintName = "Front sight",
+        PrintName = ARC9:GetPhrase("eft_cat_frontsight"),
         Category = {"eft_ar_frontsight", "eft_frontsight"},
         Pos = Vector(-8, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_backupmount"},
         Pos = Vector(0, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1213,21 +1213,21 @@ ATT.Attachments = {
         ExtraSightDistance = 8
     },
     {
-        PrintName = "Top Tactical",
+        PrintName = ARC9:GetPhrase("eft_cat_tactical_u"),
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
         Pos = Vector(-4.5, 0, -2.8),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0.5),
     },
     {
-        PrintName = "Bottom Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount_b"),
         Category = {"eft_scar_mount_bottom"},
         Pos = Vector(-1.5, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Side Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount"),
         Category = {"eft_scar_mount_side"},
         Pos = Vector(-7, 0, -1),
         Ang = Angle(0, 0, 0),
@@ -1235,7 +1235,7 @@ ATT.Attachments = {
         ExcludeElements = {"nosiderail"},
     },
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1243,7 +1243,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1251,7 +1251,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1259,7 +1259,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker D",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " D",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1291,7 +1291,7 @@ ATT.CustomPros = { Ergonomics = "+2" }
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
         Pos = Vector(4, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1299,26 +1299,26 @@ ATT.Attachments = {
         ExcludeElements = {"IronsBlockingSight"},
     },
     {
-        PrintName = "Rear sight",
+        PrintName = ARC9:GetPhrase("eft_cat_rearsight"),
         Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
         Pos = Vector(7.6, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("eft_cat_barrel"),
         Category = "eft_scarl_barrel",
         Pos = Vector(-1, 0, -1.25),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-0.2, 0, 0),
     },
     {
-        PrintName = "Front sight",
+        PrintName = ARC9:GetPhrase("eft_cat_frontsight"),
         Category = {"eft_ar_frontsight", "eft_frontsight"},
         Pos = Vector(-7.25, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_backupmount"},
         Pos = Vector(0, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1326,21 +1326,21 @@ ATT.Attachments = {
         ExtraSightDistance = 8
     },
     {
-        PrintName = "Top Tactical",
+        PrintName = ARC9:GetPhrase("eft_cat_tactical_u"),
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
         Pos = Vector(-4.0, 0, -2.8),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0.5),
     },
     {
-        PrintName = "Bottom Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount_b"),
         Category = {"eft_scar_mount_bottom"},
         Pos = Vector(-1.5 + 0.7, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Side Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount"),
         Category = {"eft_scar_mount_side"},
         Pos = Vector(-7 + 0.7, 0, -1),
         Ang = Angle(0, 0, 0),
@@ -1348,7 +1348,7 @@ ATT.Attachments = {
         ExcludeElements = {"nosiderail"},
     },    
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1356,7 +1356,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1364,7 +1364,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1372,7 +1372,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker D",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " D",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1404,7 +1404,7 @@ ATT.CustomPros = { Ergonomics = "+2" }
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_medium", "eft_optic_small", "eft_optic_large"},
         Pos = Vector(4, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1412,26 +1412,26 @@ ATT.Attachments = {
         ExcludeElements = {"IronsBlockingSight"},
     },
     {
-        PrintName = "Rear sight",
+        PrintName = ARC9:GetPhrase("eft_cat_rearsight"),
         Category = {"eft_ar_rearsight", "eft_rearsight", "eft_rearsight_scar"},
         Pos = Vector(7.6, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Barrel",
+        PrintName = ARC9:GetPhrase("eft_cat_barrel"),
         Category = "eft_scarl_barrel",
         Pos = Vector(-1, 0, -1.25),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-0.2, 0, 0),
     },
     {
-        PrintName = "Front sight",
+        PrintName = ARC9:GetPhrase("eft_cat_frontsight"),
         Category = {"eft_ar_frontsight", "eft_frontsight"},
         Pos = Vector(-7.25, 0, -2.8),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_backupmount"},
         Pos = Vector(0, 0, -2.8),
         Ang = Angle(0, 0, 0),
@@ -1439,21 +1439,21 @@ ATT.Attachments = {
         ExtraSightDistance = 8
     },
     {
-        PrintName = "Top Tactical",
+        PrintName = ARC9:GetPhrase("eft_cat_tactical_u"),
         Category = {"eft_tactical_top", "eft_tactical_top_big"},
         Pos = Vector(-4.0, 0, -2.8),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0.5),
     },
     {
-        PrintName = "Bottom Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount_b"),
         Category = {"eft_scar_mount_bottom"},
         Pos = Vector(-1.5 + 0.7, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Side Mount",
+        PrintName = ARC9:GetPhrase("eft_cat_mount"),
         Category = {"eft_scar_mount_side"},
         Pos = Vector(-7 + 0.7, 0, -1),
         Ang = Angle(0, 0, 0),
@@ -1461,7 +1461,7 @@ ATT.Attachments = {
         ExcludeElements = {"nosiderail"},
     },    
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever1_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1469,7 +1469,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever2_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1477,7 +1477,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever3_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1485,7 +1485,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker D",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " D",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickreciever4_l.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1519,21 +1519,21 @@ ATT.Category = {"eft_scar_stock"}
 
 ATT.Attachments = {
     {
-        PrintName = "Extension",
+        PrintName = ARC9:GetPhrase("eft_cat_stock"),
         Category = {"eft_scar_stockext"},
         Pos = Vector(3, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Cheek",
+        PrintName = ARC9:GetPhrase("eft_cat_aux"),
         Category = {"eft_scar_stockcheek"},
         Pos = Vector(3, 0, -1.5),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1541,7 +1541,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1575,21 +1575,21 @@ ATT.Category = {"eft_scar_stock"}
 
 ATT.Attachments = {
     {
-        PrintName = "Extension",
+        PrintName = ARC9:GetPhrase("eft_cat_stock"),
         Category = {"eft_scar_stockext"},
         Pos = Vector(3, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Cheek",
+        PrintName = ARC9:GetPhrase("eft_cat_aux"),
         Category = {"eft_scar_stockcheek"},
         Pos = Vector(3, 0, -1.5),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1597,7 +1597,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1630,14 +1630,14 @@ ATT.Category = {"eft_scar_stockext"}
 
 ATT.Attachments = {
     {
-        PrintName = "Butt",
+        PrintName = ARC9:GetPhrase("eft_cat_aux"),
         Category = {"eft_scar_stockpad"},
         Pos = Vector(6.5, 0, 1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1670,14 +1670,14 @@ ATT.Category = {"eft_scar_stockext"}
 
 ATT.Attachments = {
     {
-        PrintName = "Butt",
+        PrintName = ARC9:GetPhrase("eft_cat_aux"),
         Category = {"eft_scar_stockpad"},
         Pos = Vector(6.5, 0, 1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickstock3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1708,7 +1708,7 @@ ATT.Category = {"eft_scar_stockcheek"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1716,7 +1716,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1724,7 +1724,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1755,7 +1755,7 @@ ATT.Category = {"eft_scar_stockcheek"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1763,7 +1763,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1771,7 +1771,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickcheek3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1801,7 +1801,7 @@ ATT.Category = {"eft_custom_scar"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A (H)",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A (H)",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1809,7 +1809,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker A (L)",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A (L)",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase1_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1817,7 +1817,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1825,7 +1825,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/scar_stickbase3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1833,7 +1833,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot","eft_custom_scar"},
@@ -1861,7 +1861,7 @@ ATT.Category = {"eft_custom_slot_m4a1"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_tx1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1869,7 +1869,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_tx2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1877,7 +1877,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_tx3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1885,7 +1885,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
@@ -1913,7 +1913,7 @@ ATT.Category = {"eft_custom_slot_m4a1"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_m1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1921,7 +1921,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_m2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1929,7 +1929,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_m3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1937,7 +1937,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
@@ -1965,7 +1965,7 @@ ATT.Category = {"eft_custom_slot_m4a1"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_hk1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1973,7 +1973,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_hk2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1981,7 +1981,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_hk3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -1989,7 +1989,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
@@ -2017,7 +2017,7 @@ ATT.Category = {"eft_custom_slot_m4a1"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_adar1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2025,7 +2025,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_adar2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2033,7 +2033,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/silly_eft/ar_sticker_adar3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2041,7 +2041,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot","eft_custom_slot_m4a1"},
@@ -2070,7 +2070,7 @@ ATT.Category = {"eft_custom_slot_mp9"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/mp9_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2078,7 +2078,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/mp9_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2086,7 +2086,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2113,7 +2113,7 @@ ATT.Category = {"eft_custom_slot_mp7"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/mp7_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2121,7 +2121,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2149,7 +2149,7 @@ ATT.Category = {"eft_custom_aug"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aug_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2157,7 +2157,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aug_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2165,7 +2165,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aug_3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2173,7 +2173,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot", "eft_custom_aug"},
@@ -2206,14 +2206,14 @@ ATT.ExcludeElements = { "eft_slide_usp_elite", "eft_slide_usp_expert", "eft_barr
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = ARC9:GetPhrase("eft_cat_tactical"),
         Category = {"eft_tactical_pistol"},
         Pos = Vector(-0.55, 0, -0.76),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0.5),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/usp_sticker1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2221,7 +2221,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/usp_sticker2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2229,7 +2229,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/usp_sticker3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2260,7 +2260,7 @@ ATT.Category = {"eft_custom_deagle"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/deagle_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2269,7 +2269,7 @@ ATT.Attachments = {
         ExcludeElements = {"eft_l5"}
     },
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/deagle_1_l5.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2278,7 +2278,7 @@ ATT.Attachments = {
         RequireElements = {"eft_l5"},
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2304,7 +2304,7 @@ ATT.Category = {"eft_custom_slot_vector"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/vector_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2312,7 +2312,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/vector_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2320,7 +2320,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2371,7 +2371,7 @@ I███████████████████]
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rearsight_mbus_sticker.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2429,7 +2429,7 @@ ATT.CustomPros = { Ergonomics = "+1" }
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/silly_eft/rearsight_mbus_sticker.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2468,7 +2468,7 @@ ATT.Category = {"eft_custom_slot_g36"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/g36_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2476,7 +2476,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/g36_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2484,7 +2484,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2511,7 +2511,7 @@ ATT.Category = {"eft_custom_aa12"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker A",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " A",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2519,7 +2519,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker B",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " B",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_2.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2527,7 +2527,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker C",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " C",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_3.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2535,7 +2535,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker D",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " D",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_4.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2543,7 +2543,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Sticker E",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker") .. " E",
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/aa12_5.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2551,7 +2551,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -2579,7 +2579,7 @@ ATT.Category = {"eft_custom_slot_mr153"}
 
 ATT.Attachments = {
     {
-        PrintName = "Sticker",
+        PrintName = ARC9:GetPhrase("eft_cat_sticker"),
         StickerModel = "models/weapons/arc9/darsu_eft/stickers/mr155ultima_1.mdl",
         Category = "stickers",
         ForceNoCosmetics = true,
@@ -2587,7 +2587,7 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot","eft_custom_slot_mr153"},

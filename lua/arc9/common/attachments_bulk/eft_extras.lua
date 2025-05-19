@@ -17,19 +17,19 @@ local ATT = {}
 
 -- ATT.Attachments = {
 --     {
---         PrintName = "Custom slot",
+--         PrintName = ARC9:GetPhrase("eft_cat_custom"),
 --         Pos = Vector(0, 0, 1),
 --         Ang = Angle(0, 0, 0),
 --         Category = {"eft_custom_slot"},
 --     },
 --     {
---         PrintName = "Custom slot",
+--         PrintName = ARC9:GetPhrase("eft_cat_custom"),
 --         Pos = Vector(0, 0, 2),
 --         Ang = Angle(0, 0, 0),
 --         Category = {"eft_custom_slot"},
 --     },
 --     {
---         PrintName = "Custom slot",
+--         PrintName = ARC9:GetPhrase("eft_cat_custom"),
 --         Pos = Vector(0, 0, 3),
 --         Ang = Angle(0, 0, 0),
 --         Category = {"eft_custom_slot"},
@@ -63,7 +63,7 @@ ATT.CrouchAng = Angle(0, 0, -4)
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -98,7 +98,7 @@ ATT.CrouchAng = Angle(0, 0, -4)
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -133,7 +133,7 @@ ATT.CrouchAng = Angle(0, 0, -4)
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -168,7 +168,7 @@ ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -203,7 +203,7 @@ ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -238,7 +238,7 @@ ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -275,7 +275,7 @@ ATT.CrouchAng = Angle(0, 0, -6)
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -313,7 +313,7 @@ ATT.Category = {"eft_axmc_grip_stock"}
 
 ATT.Attachments = {
     {
-        PrintName = "Buffer Tube",
+        PrintName = ARC9:GetPhrase("eft_cat_buffertube"),
         Category = "eft_ar15_buffertube",
         Pos = Vector(0.3, 0, -0.2),
         Ang = Angle(0, 0, 0),
@@ -359,7 +359,7 @@ ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -394,7 +394,7 @@ ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -426,7 +426,7 @@ ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -467,7 +467,7 @@ ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -518,7 +518,7 @@ ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -553,7 +553,7 @@ ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -584,7 +584,7 @@ ATT.ShootSoundIndoor = { path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_i
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -649,7 +649,7 @@ ATT.SlamFireOverride = false
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -680,7 +680,7 @@ ATT.HeatCapacityMult = 3
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -711,7 +711,7 @@ ATT.Bash2RangeAdd = 24
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -742,7 +742,7 @@ ATT.BashWhileSprintOverride = true
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -772,7 +772,7 @@ ATT.Bash2LungeRange = 75
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -878,7 +878,7 @@ ATT.PostBash2TimeMult = 0.75
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot_melee"},
@@ -975,7 +975,7 @@ ATT.CanFireUnderwater = true
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -1043,7 +1043,7 @@ ATT.Category = {"eft_mp5_stock"}
 
 ATT.Attachments = {
     {
-        PrintName = "Buffer Tube",
+        PrintName = ARC9:GetPhrase("eft_cat_buffertube"),
         Category = "eft_ar15_buffertube",
         Pos = Vector(-0.15, 0, -0.08),
         Ang = Angle(0, 0, 0),
@@ -1152,7 +1152,7 @@ ATT.LHIK_Priority  = 3
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -1207,7 +1207,7 @@ ATT.LHIK_Priority  = 3
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -1245,7 +1245,7 @@ ATT.HoldTypeSprintHook = function(self, old) return handupholdtype end
 
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -1260,7 +1260,7 @@ ARC9.LoadAttachment(ATT, "eft_extras_onehandrun")
 
 local camoslottable = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},
@@ -1274,7 +1274,7 @@ for a = 1, 2 do
     for i = (doingfirsttable and 1 or 4), GetConVar("arc9_atts_maxcamos"):GetInt() do
         table.insert(doingfirsttable and camoslottable or camoslottable2, 
             {
-                PrintName = "Camouflage " .. i,
+                PrintName = ARC9:GetPhrase("eft_cat_camo") .. i,
                 Pos = Vector(0, -i * 1.5 + (doingfirsttable and 0 or 3*1.5), 0),
                 Ang = Angle(0, 0, 0),
                 Category = {"universal_camo"},
