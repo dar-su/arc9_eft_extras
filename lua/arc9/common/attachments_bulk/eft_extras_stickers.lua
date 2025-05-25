@@ -611,7 +611,7 @@ ATT.PrintName = "ASh-12 12.7x55 10-round magazine W/ STICKERS"
 ATT.CompactName = "ASh-12 10 STICKER"
 ATT.Icon = Material("entities/eft_extras_attachments/ash12mag10sticker.png", "mips smooth")
 ATT.Description = [[10-round magazine for 12.7x55 ASh-12.]]
-ATT.ActivateElements = {"eft_ash12_mag_10"}
+ATT.ActivateElements = {"ashmag10", "eft_ash12_mag_10"}
 
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
@@ -652,7 +652,7 @@ ATT.PrintName = "ASh-12 12.7x55 20-round magazine W/ STICKERS"
 ATT.CompactName = "ASh-12 20 STICKER"
 ATT.Icon = Material("entities/eft_extras_attachments/ash12mag20sticker.png", "mips smooth")
 ATT.Description = [[20-round magazine for 12.7x55 ASh-12.]]
-ATT.ActivateElements = {"eft_ash12_mag_20"}
+ATT.ActivateElements = {"eft_ash12_mag_20", "ashmag20"}
 
 ATT.EFTErgoAdd = -7
 ATT.CustomCons = { Ergonomics = "-7" }
