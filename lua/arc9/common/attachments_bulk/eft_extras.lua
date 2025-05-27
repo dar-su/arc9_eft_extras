@@ -578,9 +578,9 @@ ATT.Description = [[you have to   make them  44.1khz   audacity being stupid]]
 ATT.SortOrder = -99
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-local path = "weapons/darsu_eft/rzenithresound/"
-ATT.ShootSound = { path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg", path .. "rzenith_57_outdoor1.ogg" }
-ATT.ShootSoundIndoor = { path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg", path .. "rzenith_57_indoor1.ogg" }
+local path = ")weapons/darsu_eft/rzenithresound/"
+ATT.ShootSound = { path .. "rzenith_57_outdoor1.wav", path .. "rzenith_57_outdoor1.wav", path .. "rzenith_57_outdoor1.wav", path .. "rzenith_57_outdoor1.wav", path .. "rzenith_57_outdoor1.wav", path .. "rzenith_57_outdoor1.wav" }
+ATT.ShootSoundIndoor = { path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav" }
 
 ATT.Attachments = {
     {
@@ -850,7 +850,7 @@ ATT.BackstabRange = 2 / ARC9.HUToM
 ATT.PreBackstabTime = 0.3
 ATT.PostBackstabTime = 0.6
 ATT.BackstabDamageType = DMG_SLASH
-local path = "weapons/darsu_eft/melee/"
+local path = ")weapons/darsu_eft/melee/"
 ATT.BackstabSound = {path .. "body1.ogg", path .. "body2.ogg", path .. "body3.ogg", path .. "body4.ogg", path .. "body5.ogg", path .. "body6.ogg"}
 
 ATT.Category = {"eft_custom_slot_lungeaddon"}

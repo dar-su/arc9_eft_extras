@@ -156,7 +156,7 @@ ATT.SpreadMult = 1.1
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
 
-local path = "weapons/darsu_eft/r700/"
+local path = ")weapons/darsu_eft/m700/"
 
 ATT.ShootSound = path .. "rem700_outdoor_close1.ogg"
 ATT.ShootSoundIndoor = path .. "rem700_indoor_close1.ogg"
