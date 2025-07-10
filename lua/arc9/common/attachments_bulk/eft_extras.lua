@@ -1291,7 +1291,7 @@ ATT = {}
 
 ATT.PrintName = "Camo support for attachments"
 ATT.CompactName = "Camo support"
-ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_extras_attachments/camos.png", "mips smooth")
 ATT.Description = [[Enable if you want to colour the supported atts on unsupported gun without slots.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1313,7 +1313,7 @@ if GetConVar("arc9_atts_maxcamos"):GetInt() > 3 then
 
     ATT.PrintName = "Extra Camo slots"
     ATT.CompactName = "More camo slots"
-    ATT.Icon = Material("arc9/seasonal/birthday3.png", "mips smooth")
+    ATT.Icon = Material("entities/eft_extras_attachments/camos2.png", "mips smooth")
     ATT.Description = [[Your arc9_atts_maxcamos seems to be more than default value, so have extra slots!]]
     ATT.SortOrder = 0
     ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1328,3 +1328,124 @@ if GetConVar("arc9_atts_maxcamos"):GetInt() > 3 then
 
     ARC9.LoadAttachment(ATT, "eft_extras_camos_additional")
 end
+
+
+
+
+
+
+
+
+///////////////////////////////////////      eft_extras_extended_buffer
+
+
+ATT = {}
+
+ATT.PrintName = "Extended stock position"
+ATT.CompactName = "Extended"
+ATT.Icon = Material("entities/eft_extras_attachments/extended.png", "mips smooth")
+ATT.Description = [[Offsets AR-15 stock position.
+
+eft extras attachment]]
+ATT.SortOrder = -4
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_ar_stock"}
+
+ATT.Max = 4
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_stock"),
+        Category = "eft_ar_stock",
+        Pos = Vector(1, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_extras_extended_buffer")
+
+///////////////////////////////////////      eft_extras_extended_buffer2
+
+
+ATT = {}
+
+ATT.PrintName = "Extended stock position"
+ATT.CompactName = "Extended"
+ATT.Icon = Material("entities/eft_extras_attachments/extended.png", "mips smooth")
+ATT.Description = [[Offsets AR-15 stock position.
+
+eft extras attachment]]
+ATT.SortOrder = -4
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_ar_stock_a2"}
+
+ATT.Max = 4
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_stock"),
+        Category = "eft_ar_stock_a2",
+        Pos = Vector(1, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_extras_extended_buffer2")
+
+///////////////////////////////////////      eft_m82_resound
+
+
+ATT = {}
+
+ATT.PrintName = "Resound by rzen1th"
+ATT.CompactName = "New sounds"
+ATT.Icon = Material("entities/eft_extras_attachments/chere.png", "mips smooth")
+ATT.Description = [[sounds from unfinished urban anarchy m82]]
+
+ATT.SortOrder = -99
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+local path = ")weapons/darsu_eft/rzenithresound/m82/"
+local path2 = ")weapons/darsu_eft/ak50/"
+ATT.ShootSound = { path .. "fire-01.ogg", path .. "fire-02.ogg", path .. "fire-03.ogg", path .. "fire-04.ogg", path .. "fire-05.ogg", path .. "fire-06.ogg" }
+-- ATT.ShootSoundIndoor = { path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav", path .. "rzenith_57_indoor1.wav" }
+
+ATT.HookP_TranslateSound = function(self, data)
+    -- print(data.sound)
+    if data.sound == path2 .. "ak50_mag_out_fail.ogg" then
+        data.sound = path .. "magrel.ogg"
+    elseif data.sound == path2 .. "ak50_mag_out.ogg" then
+        data.sound = path .. "magout.ogg"
+    elseif data.sound == path2 .. "ak50_mag_out_fast.ogg" then
+        data.sound = path .. "magout.ogg"
+    elseif data.sound == path2 .. "ak50_mag_in_fail.ogg" then
+        data.sound = path .. "magtouch.ogg"
+    elseif data.sound == path2 .. "ak50_mag_in.ogg" then
+        data.sound = path .. "magin.ogg"
+    elseif data.sound == path2 .. "ak50_bolt_out.ogg" then
+        data.sound = path .. "chback.ogg"
+    elseif data.sound == path2 .. "ak50_bolt_in.ogg" then
+        data.sound = path .. "chamber.ogg"
+    elseif data.sound == path2 .. "ak50_hammer_in.ogg" then
+        data.sound = path .. "mech-06.ogg"
+    end
+
+    return data
+end
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot", "eft_custom_ak50"},
+    },
+}
+
+ATT.Category = {"eft_custom_ak50"}
+
+ARC9.LoadAttachment(ATT, "eft_m82_resound")
