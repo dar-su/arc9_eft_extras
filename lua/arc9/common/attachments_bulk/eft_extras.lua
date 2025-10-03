@@ -1449,3 +1449,65 @@ ATT.Attachments = {
 ATT.Category = {"eft_custom_ak50"}
 
 ARC9.LoadAttachment(ATT, "eft_m82_resound")
+
+
+///////////////////////////////////////      eft_extras_charm
+
+
+ATT = {}
+
+ATT.PrintName = "Charm slot"
+ATT.CompactName = "Charm"
+ATT.Icon = Material("entities/eft_extras_attachments/charm.png", "mips smooth")
+ATT.Description = [[Allows you to install ARC9 charm onto tactical slot.
+
+eft extras attachment]]
+ATT.SortOrder = 100
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_tactical"}
+
+ATT.Max = 4
+
+ATT.Attachments = {
+    {
+        PrintName = "Charm",
+        Category = "charm",
+        Pos = Vector(0.15, 0, 0),
+        Ang = Angle(180, 180, -90),
+        Icon_Offset = Vector(0, 0, 0),
+                ForceNoCosmetics = true,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_extras_charm")
+///////////////////////////////////////      eft_extras_charm2
+
+
+ATT = {}
+
+ATT.PrintName = "Charm slot (Flipped)"
+ATT.CompactName = "Charm Flip"
+ATT.Icon = Material("entities/eft_extras_attachments/charm2.png", "mips smooth")
+ATT.Description = [[Allows you to install ARC9 charm onto tactical slot. Use this for other side of weapon.
+
+eft extras attachment]]
+ATT.SortOrder = 101
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_tactical"}
+
+ATT.Max = 4
+
+ATT.Attachments = {
+    {
+        PrintName = "Charm",
+        Category = "charm",
+        Pos = Vector(0.15, 0, 0),
+        Ang = Angle(0, 180, -90),
+        Icon_Offset = Vector(0, 0, 0),
+                ForceNoCosmetics = true,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_extras_charm2")
