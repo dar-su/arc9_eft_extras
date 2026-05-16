@@ -61,6 +61,8 @@ ATT.SprintPos = Vector(4, -4, 1)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -4)
 
+ATT.Max = 1
+
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -96,6 +98,7 @@ ATT.SprintPos = Vector(4, -4, 0)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -4)
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -131,6 +134,7 @@ ATT.SprintPos = Vector(4, -4, -1)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -4)
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -166,6 +170,7 @@ ATT.SprintPos = Vector(3, -7.1, -15)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -201,6 +206,7 @@ ATT.SprintPos = Vector(3, -7.1, -16)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -236,6 +242,7 @@ ATT.SprintPos = Vector(3, -7.1, -17)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -273,6 +280,7 @@ ATT.SprintPos = Vector(3, -7.1, -15)
 ATT.CrouchPos = Vector(0, -2, -0.2)
 ATT.CrouchAng = Angle(0, 0, -6)
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -355,6 +363,7 @@ ATT.DeployTimeMult = 0.7
 ATT.ReloadTimeMult = 0.9
 ATT.CycleTimeMult = 0.8
 
+ATT.Max = 2
 ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
@@ -392,6 +401,7 @@ ATT.RecoilKickMult = 0.5
 
 ATT.Category = {"eft_custom_slot"}
 
+ATT.Max = 3
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -424,6 +434,7 @@ ATT.Overheat = false
 
 ATT.Category = {"eft_custom_slot"}
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -465,6 +476,7 @@ ATT.Firemodes = { { Mode = -1 } }
 
 ATT.Category = {"eft_custom_slot"}
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -514,6 +526,7 @@ ATT.HasLock = true
 ATT.HasTrigger = true
 
 
+ATT.Max = 1
 ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
@@ -561,6 +574,7 @@ ATT.Attachments = {
 }
 
 
+ATT.Max = 1
 
 ARC9.LoadAttachment(ATT, "eft_extras_metalpipeshell")
 
@@ -591,6 +605,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 1
 ATT.Category = {"eft_custom_slot_fn57"}
 
 ARC9.LoadAttachment(ATT, "eft_57_resound")
@@ -655,6 +670,7 @@ ATT.Attachments = {
         Category = {"eft_custom_slot"},
     },
 }
+ATT.Max = 1
 
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_manualpump")
@@ -687,6 +703,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 4
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_cooling")
 
@@ -718,6 +735,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_range")
 
@@ -749,6 +767,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_bash")
 
@@ -785,6 +804,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_lunge")
 
@@ -815,6 +835,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 3
 ATT.Category = {"eft_custom_slot_lungeaddon"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_lungemore")
 
@@ -853,6 +874,7 @@ ATT.BackstabDamageType = DMG_SLASH
 local path = ")weapons/darsu_eft/melee/"
 ATT.BackstabSound = {path .. "body1.ogg", path .. "body2.ogg", path .. "body3.ogg", path .. "body4.ogg", path .. "body5.ogg", path .. "body6.ogg"}
 
+ATT.Max = 1
 ATT.Category = {"eft_custom_slot_lungeaddon"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_backstab")
 
@@ -885,6 +907,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_swingspeed")
 
@@ -973,6 +996,7 @@ ATT.AttNotForNPCs = true
 
 ATT.CanFireUnderwater = true
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -1150,6 +1174,7 @@ ATT.HoldTypeSights = "pistol"
 ATT.LHIK = true
 ATT.LHIK_Priority  = 3
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -1205,6 +1230,7 @@ ATT.HoldTypeSights = "pistol"
 ATT.LHIK = true
 ATT.LHIK_Priority  = 3
 
+ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -1252,10 +1278,10 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 1
 ATT.Category = {"eft_custom_slot"}
 
 ARC9.LoadAttachment(ATT, "eft_extras_onehandrun")
-
 
 
 local camoslottable = {
@@ -1446,6 +1472,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.Max = 1
 ATT.Category = {"eft_custom_ak50"}
 
 ARC9.LoadAttachment(ATT, "eft_m82_resound")
@@ -1466,8 +1493,6 @@ ATT.SortOrder = 100
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Category = {"eft_tactical"}
-
-ATT.Max = 4
 
 ATT.Attachments = {
     {
@@ -1497,7 +1522,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Category = {"eft_tactical"}
 
-ATT.Max = 4
 
 ATT.Attachments = {
     {
@@ -1552,3 +1576,35 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_extras_ncstar_rs")
+
+
+///////////////////////////////////////      eft_extras_avtmount
+
+
+ATT = {}
+
+ATT.PrintName = "Allow SVT mounts on AVT"
+ATT.CompactName = "AVT Mount"
+ATT.Icon = Material("entities/eft_svt_attachments/dc.png", "mips smooth")
+ATT.Description = [[Allows AVT-40 use SVT-40 mounts.
+
+eft extras attachment]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot", "eft_custom_svt", "eft_custom_avt"},
+    },
+}
+
+ATT.ActivateElements = {"eft_allowmount"}
+
+ATT.Max = 1
+
+ATT.Category = {"eft_custom_avt"}
+ARC9.LoadAttachment(ATT, "eft_extras_avtmount")
