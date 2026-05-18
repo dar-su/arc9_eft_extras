@@ -54,8 +54,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 69
-ATT.ActivePos = Vector(-1.8, -3.5, 0.2)
-ATT.ActiveAng = Angle(0, 0, -1.75)
+ATT.ActivePos = Vector(-1.6, -3.5, 0.2)
+ATT.ActiveAng = Angle(0, 0, -0.75)
 ATT.SprintAng = Angle(35, -10, -20)
 ATT.SprintPos = Vector(4, -4, 1)
 ATT.CrouchPos = Vector(0, -2, -0.2)
@@ -91,8 +91,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = (69+65)/2
-ATT.ActivePos = Vector(-1.8, (-5.5)/2, -0.15)
-ATT.ActiveAng = Angle(0, 0, -1.8)
+ATT.ActivePos = Vector(-1.55, -2.75, -0.15)
+ATT.ActiveAng = Angle(0, 0, -0.8)
 ATT.SprintAng = Angle(35, -10, -20)
 ATT.SprintPos = Vector(4, -4, 0)
 ATT.CrouchPos = Vector(0, -2, -0.2)
@@ -163,8 +163,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 70
-ATT.ActivePos = Vector(-2.6, -5, 0.9)
-ATT.ActiveAng = Angle(0, 0, -5)
+ATT.ActivePos = Vector(-2.1, -5, 0.9)
+ATT.ActiveAng = Angle(0, 0, -2)
 ATT.SprintAng = Angle(3, 43, -5)
 ATT.SprintPos = Vector(3, -7.1, -15)
 ATT.CrouchPos = Vector(0, -2, -0.2)
@@ -199,8 +199,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 70
-ATT.ActivePos = Vector(-2.6, -5, 0.3)
-ATT.ActiveAng = Angle(0, 0, -5)
+ATT.ActivePos = Vector(-2.1, -5, 0.3)
+ATT.ActiveAng = Angle(0, 0, -3)
 ATT.SprintAng = Angle(3, 43, -5)
 ATT.SprintPos = Vector(3, -7.1, -16)
 ATT.CrouchPos = Vector(0, -2, -0.2)
@@ -235,8 +235,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 70
-ATT.ActivePos = Vector(-2.6, -5, -0.3)
-ATT.ActiveAng = Angle(0, 0, -5)
+ATT.ActivePos = Vector(-2.1, -5, -0.3)
+ATT.ActiveAng = Angle(0, 0, -2)
 ATT.SprintAng = Angle(3, 43, -5)
 ATT.SprintPos = Vector(3, -7.1, -17)
 ATT.CrouchPos = Vector(0, -2, -0.2)
@@ -271,8 +271,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
 
 ATT.ViewModelFOVBase = 70
-ATT.ActivePos = Vector(-4.75, -7, -2.2)
-ATT.ActiveAng = Angle(0, 0, -17)
+ATT.ActivePos = Vector(-4.5, -6, -3)
+ATT.ActiveAng = Angle(0, 0, -33)
 ATT.ReloadPos = Vector(-3, -3, -1)
 ATT.ReloadAng = Angle(0, 0, -13)
 ATT.SprintAng = Angle(3, 43, -5)
