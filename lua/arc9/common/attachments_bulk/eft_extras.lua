@@ -363,7 +363,7 @@ ATT.DeployTimeMult = 0.7
 ATT.ReloadTimeMult = 0.9
 ATT.CycleTimeMult = 0.8
 
-ATT.Max = 2
+-- ATT.Max = 2
 ATT.Category = {"eft_custom_slot"}
 
 ATT.Attachments = {
@@ -401,7 +401,7 @@ ATT.RecoilKickMult = 0.5
 
 ATT.Category = {"eft_custom_slot"}
 
-ATT.Max = 3
+-- ATT.Max = 3
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -476,7 +476,7 @@ ATT.Firemodes = { { Mode = -1 } }
 
 ATT.Category = {"eft_custom_slot"}
 
-ATT.Max = 1
+-- ATT.Max = 1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_custom"),
@@ -703,7 +703,7 @@ ATT.Attachments = {
     },
 }
 
-ATT.Max = 4
+-- ATT.Max = 4
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_extras_cooling")
 
@@ -735,7 +735,7 @@ ATT.Attachments = {
     },
 }
 
-ATT.Max = 3
+-- ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_range")
 
@@ -767,7 +767,7 @@ ATT.Attachments = {
     },
 }
 
-ATT.Max = 3
+-- ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_bash")
 
@@ -804,7 +804,7 @@ ATT.Attachments = {
     },
 }
 
-ATT.Max = 3
+-- ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_lunge")
 
@@ -835,7 +835,7 @@ ATT.Attachments = {
     },
 }
 
-ATT.Max = 3
+-- ATT.Max = 3
 ATT.Category = {"eft_custom_slot_lungeaddon"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_lungemore")
 
@@ -907,7 +907,7 @@ ATT.Attachments = {
     },
 }
 
-ATT.Max = 3
+-- ATT.Max = 3
 ATT.Category = {"eft_custom_slot_melee"}
 ARC9.LoadAttachment(ATT, "eft_extras_melee_swingspeed")
 
